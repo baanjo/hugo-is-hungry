@@ -1,3 +1,3 @@
 ---
-title: "Hugo's hungry"
+title: "Que aproveche"
 ---

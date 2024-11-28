@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/recipe.css">
+</head>
+<body>
+<div class="single-recipe">
+    <h1>{{ .Title }}</h1>
+    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+
+    <!-- Render All Content -->
+    <div class="recipe-content">
+        {{ .Content | safeHTML }}
+    </div>
+</div>
+</body>
+</html>

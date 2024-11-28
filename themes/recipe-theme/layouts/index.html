@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/card.css">
+</head>
+<body>
+<header>
+    <h1>{{ .Title }}</h1>
+</header>
+<div class="container">
+    {{ range .Site.RegularPages }}
+    <a href="{{ .Permalink }}" class="card">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.summary }}</p>
+    </a>
+    {{ end }}
+</div>
+</body>
+</html>
