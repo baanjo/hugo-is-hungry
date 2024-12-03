@@ -1,5 +1,5 @@
 .card {
-    background-color: #2A9D8F;
+    background-color: #B7D6B7;
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
@@ -13,7 +13,7 @@
 
 .card:hover {
     transform: translateY(-5px); /* Moves the card up slightly */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+    box-shadow: 0 4px 8px seagreen; /* Increases shadow on hover */
 }
 
 .card img {

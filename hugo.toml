@@ -1,2 +1,3 @@
 title = "Simple Recipe Website"
 theme = "recipe-theme"
+baseURL = "https://baanjo.github.io/hugo-is-hungry/"
