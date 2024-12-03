@@ -4,36 +4,48 @@
 }
 
 .single-recipe img {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
 }
 
 .single-recipe ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0;
 }
 
 .single-recipe ul li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.single-recipe ul li input[type="checkbox"] {
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.single-recipe ul li:not(:has(input[type="checkbox"])) {
     position: relative;
     padding-left: 25px;
 }
 
-.single-recipe ul li:not(:has(input[type="checkbox"]))::before {
+.single-recipe ul li::before {
     content: "→";
     position: absolute;
     left: 0;
     color: seagreen;
-    font-size: 18px;
+}
+
+/* General table styling */
+table {
+    width: 100%;
+    background-color: #e8f5e9; /* Light green background */
+}
+
+/* Table header */
+th {
+    display: none;
+}
+
+/* Table body cells */
+td {
+    padding: 5px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

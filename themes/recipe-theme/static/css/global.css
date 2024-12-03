@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F7F4EF;
     color: #333333;
 }
 
@@ -18,11 +17,17 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
 }
 
-h1, h3 {
+.title {
+    text-align: center;
+    font-family: 'Bradley Hand', cursive;
+    text-transform: uppercase;
+}
+
+h1 {
     text-align: center;
     font-family: 'Bradley Hand', cursive;
 }

@@ -1,37 +1,24 @@
 .card {
-    background-color: #B7D6B7;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 2px;
+    border: 1px solid #333333;
     text-align: center;
     text-decoration: none; /* Remove link styling */
     color: #333333;
-    display: flex;
-    flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better depth */
     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Moves the card up slightly */
-    box-shadow: 0 4px 8px seagreen; /* Increases shadow on hover */
+    transform: translateY(-3px); /* Moves the card up slightly */
+    box-shadow: 0 2px 4px #333333; /* Increases shadow on hover */
 }
 
 .card img {
     width: 100%;
     aspect-ratio: 16 / 9; /* Ensures a consistent aspect ratio */
     object-fit: cover; /* Ensures the image fills the area without distortion */
-    border-bottom: 2px solid white; /* Creates a clean separation from the summary */
-}
-
-.card h3 {
-    margin: 10px 0 5px 0;
-    padding: 0 10px;
-    font-size: 18px;
-    font-weight: bold;
 }
 
 .card p {
-    font-size: 14px;
-    margin: 5px 10px 10px 10px; /* Bottom spacing for the card */
-    color: #333333;
+    margin: 30px;
 }
