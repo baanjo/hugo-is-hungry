@@ -1,43 +1,39 @@
-/* Styling for single recipe page */
 .single-recipe {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .single-recipe img {
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-.ingredients {
-    border-left: 5px solid #20b2aa; /* Seagreen left border */
-    padding-left: 15px;
-    margin-bottom: 20px;
-}
-
-.ingredients ul {
+.single-recipe ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.ingredients ul li {
+.single-recipe ul li {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.ingredients ul li input[type="checkbox"] {
-    transform: scale(1.2); /* Larger checkbox */
+.single-recipe ul li input[type="checkbox"] {
+    margin-right: 10px;
     cursor: pointer;
 }
 
-.instructions {
-    border-right: 5px solid red; /* Red right border */
-    padding-right: 15px;
+.single-recipe ul li:not(:has(input[type="checkbox"])) {
+    position: relative;
+    padding-left: 25px;
+}
+
+.single-recipe ul li:not(:has(input[type="checkbox"]))::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #20b2aa;
+    font-size: 18px;
 }

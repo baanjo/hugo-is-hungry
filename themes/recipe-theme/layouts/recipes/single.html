@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="/css/recipe.css">
 </head>
 <body>
-<div class="single-recipe">
+<div class="container single-recipe">
     <h1>{{ .Title }}</h1>
     <img src="{{ .Params.image }}" alt="{{ .Title }}">
 
-    <!-- Render All Content -->
-    <div class="recipe-content">
+    <div>
         {{ .Content | safeHTML }}
     </div>
 </div>
