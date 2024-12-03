@@ -1,7 +1,7 @@
 ---
 title: "Spaghetti Bolognese 2"
 date: 2024-11-26
-image: "/images/recipe1.png"
+image: "images/recipe1.png"
 summary: "A classic Italian pasta dish with a rich and hearty sauce." 
 ---
 # Zutaten

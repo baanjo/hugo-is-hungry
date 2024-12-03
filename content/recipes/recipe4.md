@@ -1,7 +1,7 @@
 ---
 title: "Cheesecake 2"
 date: 2024-11-26
-image: "/images/recipe2.png"
+image: "images/recipe2.png"
 summary: "A creamy and indulgent dessert."
 ---
 # Zutaten
