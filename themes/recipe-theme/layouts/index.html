@@ -6,19 +6,33 @@
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/card.css" | absURL }}">
+    <script src="{{ "js/search.js" | absURL }}" defer></script>
 </head>
 <body>
 <header>
     <h1 class="title">{{ .Title }}</h1>
 </header>
 <div class="container">
-    {{ range .Site.RegularPages }}
-    <a href="{{ .Permalink }}" class="card">
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Params.summary }}</p>
-    </a>
-    {{ end }}
+    <!-- Search Input -->
+    <div>
+        <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for recipes..."
+                style="width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px;"
+        />
+    </div>
+
+    <!-- Recipe Cards -->
+    <div id="recipeContainer" class="recipe-container">
+        {{ range .Site.RegularPages }}
+        <a href="{{ .Permalink }}" class="card" data-title="{{ .Title | lower }}" data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Params.summary }}</p>
+        </a>
+        {{ end }}
+    </div>
 </div>
 </body>
 </html>

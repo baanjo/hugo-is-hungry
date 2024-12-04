@@ -12,13 +12,28 @@ header {
     margin: 20px 0;
 }
 
+/*.container {*/
+/*    max-width: 80%; !* Use only 80% of the screen width *!*/
+/*    margin: 0 auto;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); !* Responsive grid *!*/
+/*    gap: 30px;*/
+/*    padding: 20px;*/
+/*}*/
+
 .container {
     max-width: 80%; /* Use only 80% of the screen width */
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-    gap: 30px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
 }
 
 .title {

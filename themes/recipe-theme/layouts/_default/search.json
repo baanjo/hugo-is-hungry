@@ -1,0 +1,12 @@
+{{- /* Output JSON */ -}}
+[
+{{- range $index, $page := (where .Site.Pages "Section" "recipes") -}}
+{{- if $index }},{{ end -}}
+{
+"title": {{- $page.Title | jsonify -}},
+"summary": {{- $page.Summary | jsonify -}},
+"url": {{- $page.RelPermalink | jsonify -}},
+"content": {{- $page.Plain | jsonify -}}
+}
+{{- end -}}
+]
