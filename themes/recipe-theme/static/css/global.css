@@ -1,25 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #333333;
 }
-
-header {
-    margin: 20px 0;
-}
-
-/*.container {*/
-/*    max-width: 80%; !* Use only 80% of the screen width *!*/
-/*    margin: 0 auto;*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); !* Responsive grid *!*/
-/*    gap: 30px;*/
-/*    padding: 20px;*/
-/*}*/
 
 .container {
     max-width: 80%; /* Use only 80% of the screen width */
@@ -29,20 +17,72 @@ header {
     align-items: center;
 }
 
+input[type="search"] {
+    display: block; /* Ensure the input behaves like a block element */
+    min-width: 50%; /* Force the width to be 50% of the parent container */
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px; /* Ensure readable text */
+    border: 1px solid #333333; /* Add a standard border */
+    border-radius: 2px; /* Optional: rounded corners */
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: inline; /* Ensure the clear button remains visible */
+}
+
+.category-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.category-filter {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e8f5e9;
+    border: 1px solid seagreen;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.category-filter:hover {
+    transform: translateY(-3px); /* Moves the button up slightly */
+    box-shadow: 0 2px 4px #333333; /* Increases shadow on hover */
+}
+
+.category-filter.selected {
+    background-color: seagreen;
+    color: white;
+    border-color: #333333;
+}
+
 .recipe-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(3, 1fr); /* Always have 3 equal columns */
+    gap: 20px; /* Space between cards */
     width: 100%;
+    justify-content: center; /* Center the grid container */
+}
+
+@media (max-width: 768px) {
+    .recipe-container {
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2 cards per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-container {
+        grid-template-columns: 1fr; /* Switch to 1 card per row */
+    }
+}
+
+.title, h1 {
+    text-align: center;
+    font-family: 'Bradley Hand', cursive;
 }
 
 .title {
-    text-align: center;
-    font-family: 'Bradley Hand', cursive;
     text-transform: uppercase;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Bradley Hand', cursive;
 }

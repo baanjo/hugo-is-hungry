@@ -19,3 +19,28 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.category-filter');
+    const cards = document.querySelectorAll('.card');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove `selected` class from all buttons
+            buttons.forEach(btn => btn.classList.remove('selected'));
+
+            // Add `selected` class to the clicked button
+            button.classList.add('selected');
+
+            const category = button.dataset.category;
+
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category.includes(category)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+});

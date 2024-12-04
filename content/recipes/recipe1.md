@@ -2,7 +2,9 @@
 title: "Spaghetti Bolognese"
 date: 2024-11-26
 image: "images/recipe1.png"
-summary: "A classic Italian pasta dish with a rich and hearty sauce." 
+summary: "A classic pasta dish with a rich and hearty sauce."
+categories: ["Italian", "Pasta"]
+
 ---
 
 ---

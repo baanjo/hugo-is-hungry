@@ -14,19 +14,22 @@
 </header>
 <div class="container">
     <!-- Search Input -->
-    <div>
-        <input
-                type="text"
-                id="searchInput"
-                placeholder="Search for recipes..."
-                style="width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px;"
-        />
+    <input type="search" id="searchInput" placeholder="Ich suche..."/>
+
+    <!-- Category filters -->
+    <div class="category-menu">
+        <button class="category-filter selected" data-category="all">Alle</button>
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+        <button class="category-filter" data-category="{{ $key | lower }}">{{ $key | title }}</button>
+        {{ end }}
     </div>
 
     <!-- Recipe Cards -->
     <div id="recipeContainer" class="recipe-container">
         {{ range .Site.RegularPages }}
-        <a href="{{ .Permalink }}" class="card" data-title="{{ .Title | lower }}" data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
+        <a href="{{ .Permalink }}" class="card" data-title="{{ .Title | lower }}"
+           data-category="{{ range .Params.categories }}{{ . | lower }} {{ end }}"
+           data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
             <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
             <h3>{{ .Title }}</h3>
             <p>{{ .Params.summary }}</p>

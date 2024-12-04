@@ -1,20 +1,16 @@
-.single-recipe {
-    display: flex;
-    flex-direction: column;
-}
-
-.single-recipe img {
+.recipe img {
+    width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
 }
 
-.single-recipe ul {
+.recipe ul {
     list-style: none;
     padding: 0;
     margin: 20px 0 0;
 }
 
-.single-recipe ul li {
+.recipe ul li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -22,7 +18,7 @@
     padding-left: 25px;
 }
 
-.single-recipe ul li::before {
+.recipe ul li::before {
     content: "→";
     position: absolute;
     left: 0;
