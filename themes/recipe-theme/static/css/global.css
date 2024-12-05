@@ -87,6 +87,12 @@ button.selected {
     justify-content: center; /* Center the grid container */
 }
 
+@media (min-width: 768px) {
+    .container {
+        max-width: 60%;
+    }
+}
+
 @media (max-width: 768px) {
     .recipe-container {
         grid-template-columns: repeat(2, 1fr); /* Switch to 2 cards per row */

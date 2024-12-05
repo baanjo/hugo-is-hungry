@@ -7,7 +7,7 @@ img {
 
 @media (min-width: 768px) { /* Apply rules for larger screens */
     img {
-        max-width: 50%; /* Limit the image width to 50% */
+        max-width: 60%; /* Limit the image width */
     }
 }
 
@@ -24,13 +24,16 @@ ul {
 
 li {
     cursor: pointer; /* Make the entire item clickable */
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    display: flex; /* Align the checkbox and text horizontally */
+    align-items: flex-start;  /* Align text with the top of the checkbox */
 }
 
 /* General table styling */
 table {
-    width: 100%;
+    margin: 0 auto; /* Ensures the table is centered */
     background-color: #e8f5e9; /* Light green background */
+    padding: 10px;
 }
 
 /* Table header */
@@ -40,7 +43,7 @@ th {
 
 /* Table body cells */
 td {
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 hr {
