@@ -9,6 +9,8 @@
 </head>
 <body>
 <div class="container recipe">
+    <button class="width-100" onclick="window.location.href='{{ .Site.BaseURL | relURL }}'">← Zurück zu Rezepten</button>
+
     <h1 class="title">{{ .Title }}</h1>
     <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
 
