@@ -32,6 +32,11 @@
            data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
             <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
             <h3>{{ .Title }}</h3>
+            <div class="categories">
+                {{ range .Params.categories }}
+                <span class="category-pill">{{ . }}</span>
+                {{ end }}
+            </div>
         </a>
         {{ end }}
     </div>

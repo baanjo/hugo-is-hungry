@@ -40,6 +40,23 @@ input[type="search"]::-webkit-search-cancel-button {
     justify-content: center; /* Centers buttons within each row */
 }
 
+.categories {
+    display: flex;
+    flex-wrap: wrap; /* Allow pills to wrap if they overflow */
+    gap: 10px; /* Space between pills */
+    margin: 10px 10px 20px;
+    justify-content: center; /* Centers items within each row */
+}
+
+.category-pill {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid seagreen;
+    border-radius: 30px; /* Round the corners to create pill shape */
+    font-size: 14px; /* Adjust font size */
+    text-align: center; /* Center text within the pill */
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
