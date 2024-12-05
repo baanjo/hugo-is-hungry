@@ -28,9 +28,9 @@ categories: ["Italian", "Pasta"]
 |  1 cup | Sugar |
 | 2 cups | Flour |
 
-- Cook the spaghetti according to the package instructions.
-- Sauté onions and garlic in a pan.
-- Add tomato sauce and simmer.
+- [ ] Cook the spaghetti according to the package instructions.
+- [ ] Sauté onions and garlic in a pan.
+- [ ] Add tomato sauce and simmer.
 
 ---
 
@@ -42,6 +42,6 @@ categories: ["Italian", "Pasta"]
 |  1 cup | Sugar |
 | 2 cups | Flour |
 
-- Cook the spaghetti according to the package instructions.
-- Sauté onions and garlic in a pan.
-- Add tomato sauce and simmer.
+- [ ] Cook the spaghetti according to the package instructions.
+- [ ] Sauté onions and garlic in a pan.
+- [ ] Add tomato sauce and simmer.

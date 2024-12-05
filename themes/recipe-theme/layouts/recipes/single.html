@@ -6,9 +6,10 @@
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/recipe.css" | absURL }}">
+    <script src="{{ "js/checkboxes.js" | absURL }}" defer></script>
 </head>
 <body>
-<div class="container recipe">
+<div class="container">
     <button class="width-100" onclick="window.location.href='{{ .Site.BaseURL | relURL }}'">← Zurück zu Rezepten</button>
 
     <h1 class="title">{{ .Title }}</h1>

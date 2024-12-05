@@ -1,28 +1,23 @@
-.recipe img {
+img {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
 }
 
-.recipe ul {
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ul {
     list-style: none;
     padding: 0;
     margin: 20px 0 0;
 }
 
-.recipe ul li {
-    display: flex;
-    align-items: center;
+li {
+    cursor: pointer; /* Make the entire item clickable */
     margin-bottom: 10px;
-    position: relative;
-    padding-left: 25px;
-}
-
-.recipe ul li::before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: seagreen;
 }
 
 /* General table styling */
@@ -44,4 +39,9 @@ td {
 hr {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
 }
