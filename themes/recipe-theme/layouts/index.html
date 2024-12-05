@@ -18,7 +18,7 @@
 
     <!-- Category filters -->
     <div class="category-menu">
-        <button class="category-filter selected" data-category="all">Alle</button>
+        <button class="selected" data-category="all">Alle</button>
         {{ range $key, $value := .Site.Taxonomies.categories }}
         <button class="category-filter" data-category="{{ $key | lower }}">{{ $key | title }}</button>
         {{ end }}

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
-    const buttons = document.querySelectorAll(".category-filter");
+    const buttons = document.querySelectorAll(".category-menu button");
     const recipeCards = document.querySelectorAll(".card");
 
     let activeCategory = "all"; // Default to "all"
