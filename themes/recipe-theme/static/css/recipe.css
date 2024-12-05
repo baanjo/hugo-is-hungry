@@ -1,7 +1,14 @@
 img {
     width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for better depth */
+    border-radius: 3px;
+    border: 1px solid seagreen;
+}
+
+@media (min-width: 768px) { /* Apply rules for larger screens */
+    img {
+        max-width: 50%; /* Limit the image width to 50% */
+    }
 }
 
 input[type="checkbox"] {
