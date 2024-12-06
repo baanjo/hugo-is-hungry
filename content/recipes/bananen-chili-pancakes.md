@@ -3,6 +3,7 @@ title: "Bananen-Chili-Pancakes"
 image: "images/placeholder.png"
 summary: "Deftige Pancakes mit Bananen, Chili und Frühlingszwiebel"
 categories: [ "Vegan" ]
+note: "🚧"
 ---
 
 ---

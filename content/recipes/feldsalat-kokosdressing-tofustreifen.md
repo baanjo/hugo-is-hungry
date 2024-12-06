@@ -12,7 +12,7 @@ categories: [ "Vegan", "Salat", "Schnell und einfach" ]
 |               |                                                         |
 |--------------:|:--------------------------------------------------------|
 |     175 Gramm | Räuchertofu                                             |
-|               | Olivenöl zum Braten                                     |
+|               | Olivenöl                                                |
 |      1 Schuss | Sojasoße                                                |
 |   1 Teelöffel | Räucherpaprika                                          |
 |    1 Handvoll | Cashews                                                 |
@@ -26,18 +26,48 @@ categories: [ "Vegan", "Salat", "Schnell und einfach" ]
 |             1 | Frühlingszwiebel                                        |
 |               | Salz                                                    |
 |               | Pfeffer                                                 |
-| 0,5 Teelöffel | Agavendicksaft oder 1 Teelöffel Honig                   |
+| 0,5 Teelöffel | Agavendicksaft (alternativ 1 Teelöffel Honig)           |
 
 ---
 
-# 1.
+# 1. Tofu und Gemüse
 
-- [ ] Tofu in Streifen schneiden (ca. 0,5 Zentimeter dick), in etwas Öl anbraten, mit etwas Sojasoße ablöschen und mit
-  etwas Paprikapulver würzen.
+|             |                  |
+|------------:|:-----------------|
+|   175 Gramm | Räuchertofu      |
+|             | Öl zum Braten    |
+|    1 Schuss | Sojasoße         |
+| 1 Teelöffel | Räucherpaprika   |
+|  1 Handvoll | Cashews          |
+|  2 Handvoll | Feldsalat        |
+|           1 | Paprika          |
+|    6 kleine | Tomaten          |
+|           1 | Frühlingszwiebel |
+|  1 Handvoll | Sprossen         |
+
+- [ ] Tofu in Streifen schneiden (ca. 0,5 Zentimeter dick) und in etwas Öl anbraten.
+- [ ] Tofu mit etwas Sojasoße ablöschen und mit etwas Paprikapulver würzen.
 - [ ] Tofu beiseitestellen und Cashews in der Pfanne anrösten.
-- [ ] Paprika und Tomaten in Stücke sowie Frühlingszwiebeln in Ringe schneiden.
-- [ ] Für das Dressing Abrieb und Saft der Limette, 2 Esslöffel Olivenöl, Kokosmilch, fein gehackten Ingwer und
-  Agavendicksaft/Honig vermengen und mit Salz und Pfeffer abschmecken.
+- [ ] Feldsalat waschen
+- [ ] Paprika und Tomaten in Stücke schneiden.
+- [ ] Frühlingszwiebeln in Ringe schneiden.
+- [ ] Sprossen waschen
+
+# 2. Dressing
+
+|               |                                                         |
+|--------------:|:--------------------------------------------------------|
+|  1 Zentimeter | Ingwer                                                  |
+|             1 | Limette (für ein weniger saures Dressing etwas weniger) |
+|   2 Esslöffel | Olivenöl                                                |
+|   2 Esslöffel | Kokosmilch (mehr nach Geschmack)                        |
+| 0,5 Teelöffel | Agavendicksaft (alternativ 1 Teelöffel Honig)           |
+|               | Salz                                                    |
+|               | Pfeffer                                                 |
+
+- [ ] Ingwer fein hacken
+- [ ] Abrieb und Saft der Limette, 2 Esslöffel Olivenöl, Kokosmilch, Ingwer und Agavendicksaft/Honig vermengen.
+- [ ] Dressing mit Salz und Pfeffer abschmecken.
 - [ ] Feldsalat, Paprika, Tomaten, Cashews, Sprossen und Tofustreifen mit dem Dressing vermengen.
 
 ---

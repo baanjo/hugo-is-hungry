@@ -9,23 +9,23 @@ categories: [ "Vegetarisch" ]
 
 # Zutaten
 
-|             |                                                      |
-|------------:|:-----------------------------------------------------|
-|           2 | Auberginen                                           |
-|             | Olivenöl                                             |
-|           4 | Knoblauchzehen                                       |
-|             | Salz                                                 |
-| 1 Esslöffel | Sambal Oelek (Chilipaste)                            |
-|   100 Gramm | Bulgur                                               |
-|           3 | Lauchzwiebeln                                        |
-|             | Petersilie                                           |
-| 2 Esslöffel | frische Minze                                        |
-|    40 Gramm | Nüsse (Cashews und gesalzene und geröstete Erdnüsse) |
-| 1 Teelöffel | Zitronenschale                                       |
-| 3 Esslöffel | Zitronensaft                                         |
-| 2 Esslöffel | Tomatenmark                                          |
-|   150 Gramm | Joghurt                                              |
-|             | Pfeffer                                              |
+|             |                                     |
+|------------:|:------------------------------------|
+|           2 | Auberginen                          |
+|             | Olivenöl                            |
+|           4 | Knoblauchzehen                      |
+|             | Salz                                |
+| 1 Esslöffel | Sambal Oelek (Chilipaste)           |
+|   100 Gramm | Bulgur                              |
+|           3 | Lauchzwiebeln                       |
+|             | Petersilie                          |
+| 2 Esslöffel | frische Minze                       |
+|    40 Gramm | Nüsse (Cashews, gesalzene Erdnüsse) |
+| 1 Teelöffel | Zitronenschale                      |
+| 3 Esslöffel | Zitronensaft                        |
+| 2 Esslöffel | Tomatenmark                         |
+|   150 Gramm | Joghurt                             |
+|             | Pfeffer                             |
 
 ---
 
@@ -51,20 +51,20 @@ categories: [ "Vegetarisch" ]
 
 # 2. Bulgursalat und Joghurt
 
-|             |                                                      |
-|------------:|:-----------------------------------------------------|
-|             | Salz                                                 |
-|   100 Gramm | Bulgur                                               |
-|           3 | Lauchzwiebeln                                        |
-|             | frische Petersilie                                   |
-|    40 Gramm | Nüsse (Cashews und gesalzene und geröstete Erdnüsse) |
-| 1 Teelöffel | Zitronenschale                                       |
-| 3 Esslöffel | Zitronensaft                                         |
-| 2 Esslöffel | Tomatenmark                                          |
-| 4 Esslöffel | Olivenöl                                             |
-| 2 Esslöffel | frische Minze                                        |
-|   150 Gramm | Joghurt                                              |
-|             | Pfeffer                                              |
+|             |                                     |
+|------------:|:------------------------------------|
+|             | Salz                                |
+|   100 Gramm | Bulgur                              |
+|           3 | Lauchzwiebeln                       |
+|             | frische Petersilie                  |
+|    40 Gramm | Nüsse (Cashews, gesalzene Erdnüsse) |
+| 1 Teelöffel | Zitronenschale                      |
+| 3 Esslöffel | Zitronensaft                        |
+| 2 Esslöffel | Tomatenmark                         |
+| 4 Esslöffel | Olivenöl                            |
+| 2 Esslöffel | frische Minze                       |
+|   150 Gramm | Joghurt                             |
+|             | Pfeffer                             |
 
 - [ ] Bulgur nach Packungsanleitung kochen und salzen.
 - [ ] Lauchzwiebeln in Ringe schneiden und mit Petersilie, Nüssen, Zitronenschale, Zitronensaft, Tomatenmark, Salz und 4

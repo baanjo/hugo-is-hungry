@@ -19,3 +19,8 @@
     aspect-ratio: 16 / 9; /* Ensures a consistent aspect ratio */
     object-fit: cover; /* Ensures the image fills the area without distortion */
 }
+
+.card h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -22,7 +22,7 @@ categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Salat" ]
 
 # 1.
 
-- [ ] Fenchel in feine Streifen schneiden (inklusive Fenchelgrün).
+- [ ] Strunk des Fenchels entfernen und Fenchel in feine Streifen schneiden (inklusive Fenchelgrün).
 - [ ] Walnüsse grob hacken.
 - [ ] Beides auf einem Teller verteilen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen.
 

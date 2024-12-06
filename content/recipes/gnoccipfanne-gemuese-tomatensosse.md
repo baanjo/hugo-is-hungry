@@ -11,20 +11,20 @@ categories: [ "Vegan", "Schnell und einfach" ]
 
 |                 |                           |
 |----------------:|:--------------------------|
-|   400-500 Gramm | Gnocci                    |
-|               1 | große Zwiebel             |
 |               3 | Knoblauchzehen            |
-|               1 | Paprika                   |
+|               1 | große Zwiebel             |
+|   einige kleine | Tomaten                   |
 |               1 | Zucchini                  |
-| ca. 3 Esslöffel | Tomatenmark               |
+|               1 | Paprika                   |
+|   400-500 Gramm | Gnocci                    |
+|                 | Olivenöl zum Braten       |
 |     1 Esslöffel | Weißweinessig             |
+| ca. 3 Esslöffel | Tomatenmark               |
 |     4 Esslöffel | Gemüsebrühe (Flüssigkeit) |
-|     5 Esslöffel | Olivenöl                  |
-|                 | Einige kleine Tomaten     |
-|                 | (Frischer) Basilikum      |
-|                 | Oregano                   |
 |                 | Salz                      |
 |                 | Pfeffer                   |
+|                 | Oregano                   |
+|                 | (frischer) Basilikum      |
 
 ---
 

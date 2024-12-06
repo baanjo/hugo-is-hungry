@@ -9,15 +9,15 @@ categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Snacks" ]
 
 # Zutaten
 
-|                    |                |
-|-------------------:|:---------------|
-| 1 Dose (400 Gramm) | Kichererbsen   |
-|        1 Esslöffel | Olivenöl       |
-|      0,5 Teelöffel | Kreuzkümmel    |
-|      0,5 Teelöffel | Kurkuma        |
-|      0,5 Teelöffel | Paprikapulver  |
-|      0,5 Teelöffel | Cayennepfeffer |
-|                    | etwas Salz     |
+|               |                        |
+|--------------:|:-----------------------|
+|   1 Esslöffel | Olivenöl               |
+| 0,5 Teelöffel | Kreuzkümmel            |
+| 0,5 Teelöffel | Kurkuma                |
+| 0,5 Teelöffel | Paprikapulver          |
+| 0,5 Teelöffel | Cayennepfeffer         |
+|               | etwas Salz             |
+|     400 Gramm | Kichererbsen (gekocht) |
 
 ---
 
