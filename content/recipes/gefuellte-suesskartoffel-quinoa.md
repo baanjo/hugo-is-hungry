@@ -1,6 +1,6 @@
 ---
 title: "Gefüllte Süßkartoffel mit Quinoa"
-image: "images/gefuellte-suesskartoffel-quinoa.jpg"
+image: "images/gefuellte-suesskartoffel-quinoa.jpeg"
 summary: "Gefüllte Süßkartoffel mit Quinoa, Paprika und Kräutern und angerichtet mit einem Avocado-Limetten-Koriander-Dressing"
 categories: [ "Vegan" ]
 ---

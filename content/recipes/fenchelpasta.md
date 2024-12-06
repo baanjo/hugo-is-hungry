@@ -1,6 +1,6 @@
 ---
 title: "Fenchel-Pasta"
-image: "images/placeholder.png"
+image: "images/fenchelpasta.jpeg"
 summary: "Pasta mit Fenchel und Zitrone"
 categories: [ "Vegan", "Pasta" ]
 ---

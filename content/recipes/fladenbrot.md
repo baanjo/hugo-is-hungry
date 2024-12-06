@@ -1,6 +1,6 @@
 ---
 title: "Fladenbrot"
-image: "images/placeholder.png"
+image: "images/fladenbrot.jpeg"
 summary: "Fladenbrot aus der Pfanne mit Sesam und Schwarzkümmel"
 categories: [ "Vegan", "Brot" ]
 note: "🚧"

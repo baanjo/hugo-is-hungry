@@ -1,6 +1,6 @@
 ---
 title: "Dal Makhani mit Gemüse"
-image: "images/placeholder.png"
+image: "images/dal-makhani.jpeg"
 summary: "Dal aus schwarzen Linsen (Belugalinsen) mit Süßkartoffel, Möhren und Spinat"
 categories: [ "Vegan", "Curry", "Zwei-Tage-Essen" ]
 ---
@@ -11,11 +11,11 @@ categories: [ "Vegan", "Curry", "Zwei-Tage-Essen" ]
 
 |                |                                |
 |---------------:|:-------------------------------|
-|    2 Esslöffel | Öl                             |
 |              1 | Zwiebel                        |
 |              4 | Knoblauchzehen                 |
 |   2 Zentimeter | Ingwer                         |
 |              2 | Karotten                       |
+|                | Öl zum Braten                  |
 |  1,5 Esslöffel | Currypaste (gelb)              |
 |      300 Gramm | Belugalinsen (schwarze Linsen) |
 | 400 Milliliter | stückige Tomaten               |
@@ -32,8 +32,8 @@ categories: [ "Vegan", "Curry", "Zwei-Tage-Essen" ]
 
 # 1.
 
-- [ ] Zwiebeln, Knoblauch und Ingwer klein schneiden und Möhren in Scheiben schneiden.
-- [ ] Zwiebeln, Knoblauch, Ingwer und Möhren in 2 Esslöffel Öl anbraten.
+- [ ] Zwiebel, Knoblauch und Ingwer klein schneiden und Möhren in Scheiben schneiden.
+- [ ] Zwiebel, Knoblauch, Ingwer und Möhren in etwas Öl anbraten.
 - [ ] Currypaste und gewaschene Linsen hinzufügen und kurz (1 Minute) anbraten.
 - [ ] Tomaten, Kokosmilch und Gemüsebrühe hinzufügen und 20 Minuten köcheln lassen.
 - [ ] Süßkartoffeln in kleine Würfel schneiden.

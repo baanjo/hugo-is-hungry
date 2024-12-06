@@ -1,6 +1,6 @@
 ---
 title: "Bananenbrot"
-image: "images/bananenbrot.jpg"
+image: "images/bananenbrot.jpeg"
 summary: "Bananenbrot mit Schokostückchen und Zimt"
 categories: [ "Vegan", "Süßes", "Schnell und einfach" ]
 ---

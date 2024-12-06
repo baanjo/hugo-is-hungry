@@ -1,6 +1,6 @@
 ---
 title: "Gemüsepfanne mit Quinoa, Topinambur und Joghurt-Kräuter-Soße"
-image: "images/placeholder.png"
+image: "images/gemuesepfanne-quinoa-topinambur-joghurt-kraeuter.jpeg"
 summary: "Topinambur, Karotten und Paprika aus der Pfanne mit Quinoa und einer scharfen Soße aus Joghurt, Jalapeño, Knoblauch, Minze und Koriander"
 categories: [ "Vegetarisch" ]
 ---

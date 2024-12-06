@@ -18,7 +18,7 @@ categories: [ "Vegan" ]
 | 100 Milliliter | Hafermilch         |
 |       85 Gramm | Weizenmehl         |
 |        5 Gramm | Backpulver         |
-|                | Salz               |
+|             🚧 | Salz               |
 |                | Öl zum Braten      |
 
 ---
@@ -26,7 +26,7 @@ categories: [ "Vegan" ]
 # 1.
 
 - [ ] Banane in einer Schüssel zerdrücken.
-- [ ] Petersilie und Chili (entkernt) hacken und mit den übrigen Zutaten in die Schüssel geben und zu einem Teig
+- [ ] Petersilie, Frühlingszwiebel und Chili hacken und mit den übrigen Zutaten in die Schüssel geben und zu einem Teig
   vermengen.
 - [ ] Öl in einer Pfanne erhitzen, Teig auf 4 Pancakes aufteilen und diese einige Minuten bei mittlerer Hitze braten.
 

@@ -1,6 +1,6 @@
 ---
 title: "Gefüllte Süßkartoffel mit Bohnen, Guacamole und Salsa"
-image: "images/gefuellte-suesskartoffel-bohnen-guacamole-salsa.jpg"
+image: "images/gefuellte-suesskartoffel-bohnen-guacamole-salsa.jpeg"
 summary: "Gefüllte Süßkartoffel mit Kidneybohnen, Chili-Mais, Guacamole und Tomaten-Zwiebel-Salsa"
 categories: [ "Vegan" ]
 ---

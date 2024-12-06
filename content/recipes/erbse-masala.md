@@ -1,6 +1,6 @@
 ---
 title: "Erbse Masala"
-image: "images/placeholder.png"
+image: "images/erbse-masala.jpeg"
 summary: "Dip oder Brotaufstrich aus Erbsen"
 categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Dips und Soßen" ]
 ---
@@ -12,11 +12,11 @@ categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Dips und Soßen" ]
 |               |                              |
 |--------------:|:-----------------------------|
 |     120 Gramm | Erbsen                       |
-|         0,5-1 | Limette                      |
 |      60 Gramm | Sonnenblumenöl oder Olivenöl |
+| 0,5 Teelöffel | Garam Masala                 |
 |      40 Gramm | Sonnenblumenkerne            |
 |               | Salz                         |
-| 0,5 Teelöffel | Garam Masala                 |
+|         0,5-1 | Limette                      |
 
 ---
 

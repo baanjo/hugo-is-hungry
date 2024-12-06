@@ -1,6 +1,6 @@
 ---
 title: "Gebratene Nudeln mit Gemüse und Tofu"
-image: "images/placeholder.png"
+image: "images/gebratene-nudeln-tofu-gemuese.jpeg"
 summary: "Gebratene Nudeln mit Räuchertofu, Zuckerschoten, Ei, Zwiebeln, Sojasoße und Erdnüssen"
 categories: [ "Vegetarisch" ]
 ---

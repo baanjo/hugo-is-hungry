@@ -1,6 +1,6 @@
 ---
 title: "Bohnenfrikadellen"
-image: "images/placeholder.png"
+image: "images/bohnenfrikadellen.jpeg"
 summary: "Frikadellen aus Kidneybohnen"
 categories: [ "Vegan", "Snacks" ]
 ---
@@ -14,11 +14,11 @@ categories: [ "Vegan", "Snacks" ]
 | 1 Dose (400 Gramm) | gekochte Kidneybohnen |
 |                0,5 | Zwiebel               |
 |                  1 | Knoblauchzehe         |
-|        1 Teelöffel | Oregano               |
-|        1 Esslöffel | Tomatenmark           |
+|        4 Esslöffel | Haferflocken          |
 |        1 Teelöffel | Sojasoße              |
 |        2 Teelöffel | Senf                  |
-|        4 Esslöffel | Haferflocken          |
+|        1 Esslöffel | Tomatenmark           |
+|        1 Teelöffel | Oregano               |
 |                    | Salz                  |
 |                    | Pfeffer               |
 |                    | Öl zum Braten         |
@@ -28,8 +28,8 @@ categories: [ "Vegan", "Snacks" ]
 # 1.
 
 - [ ] Kidneybohnen waschen, gut abtropfen lassen und in einer Schüssel zerdrücken.
-- [ ] Bohnen mit kleingeschnittener Zwiebel, Haferflocken, gehacktem Knoblauch, Sojasoße, Senf, Tomatenmark, Oregano,
-  Salz und Pfeffer vermengen.
+- [ ] Zwiebel und Knoblauch fein hacken
+- [ ] Bohnen mit Zwiebel, Knoblauch, Haferflocken, Sojasoße, Senf, Tomatenmark, Oregano, Salz und Pfeffer vermengen.
 - [ ] Aus der Bohnenmasse Bällchen oder Frikadellen formen und in der Pfanne in Öl anbraten.
 
 ---

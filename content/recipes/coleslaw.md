@@ -1,6 +1,6 @@
 ---
 title: "Coleslaw"
-image: "images/coleslaw.jpg"
+image: "images/coleslaw.jpeg"
 summary: "Coleslaw aus Spitzkohl mit Koriander"
 categories: [ "Vegan", "Salat" ]
 ---

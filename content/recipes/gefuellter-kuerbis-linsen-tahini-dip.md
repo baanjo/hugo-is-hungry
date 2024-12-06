@@ -1,6 +1,6 @@
 ---
 title: "Gefüllter Kürbis mit Linsen und Tahini-Dip"
-image: "images/gefuellter-kuerbis-linsen-tahini-dip.jpg"
+image: "images/gefuellter-kuerbis-linsen-tahini-dip.jpeg"
 summary: "Gefüllter Butternut-Kürbis mit Füllung aus grünen Linsen, Tahini und Sojasoße mit einem Kürbis-Tahini-Dip"
 categories: [ "Vegan" ]
 ---

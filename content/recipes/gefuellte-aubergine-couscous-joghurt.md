@@ -1,6 +1,6 @@
 ---
 title: "Gefüllte Aubergine mit Couscous und Joghurt"
-image: "images/placeholder.png"
+image: "images/gefuellte-aubergine-couscous-joghurt.jpeg"
 summary: "Gefüllte Aubergine mit Dattel-Mandel-Couscous, Joghurt, Minze und Granatapfelkernen"
 categories: [ "Vegetarisch" ]
 ---

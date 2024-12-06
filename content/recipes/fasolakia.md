@@ -1,6 +1,6 @@
 ---
 title: "Fasolakia"
-image: "images/fasolakia.jpg"
+image: "images/fasolakia.jpeg"
 summary: "Suppe aus grünen Bohnen, Kartoffeln und Tomaten mit Rotwein und Orangenschale"
 categories: [ "Vegan", "Suppe" ]
 ---

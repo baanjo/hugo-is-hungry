@@ -1,6 +1,6 @@
 ---
 title: "Focaccia"
-image: "images/placeholder.png"
+image: "images/focaccia.jpeg"
 summary: "Brot aus dem Ofen mit Olivenöl, Rosmarin und Tomaten"
 categories: [ "Vegan", "Brot" ]
 ---

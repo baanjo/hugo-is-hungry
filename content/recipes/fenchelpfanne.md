@@ -1,6 +1,6 @@
 ---
 title: "Fenchelpfanne"
-image: "images/placeholder.png"
+image: "images/fenchelpfanne.jpeg"
 summary: "Fenchelpfanne mit Sojasoße, Gemüse, Pilzen oder Tofu und Nüssen"
 categories: [ "Vegan" ]
 ---

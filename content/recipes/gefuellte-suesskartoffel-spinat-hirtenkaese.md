@@ -1,6 +1,6 @@
 ---
 title: "Gefüllte Süßkartoffel mit Spinat und Hirtenkäse"
-image: "images/placeholder.png"
+image: "images/gefuellte-suesskartoffel-spinat-hirtenkaese.jpeg"
 summary: "Gefüllte Süßkartoffel mit Spinat, Kichererbsen und Hirtenkäse"
 categories: [ "Vegetarisch" ]
 ---

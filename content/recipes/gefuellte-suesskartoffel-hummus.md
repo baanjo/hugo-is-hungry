@@ -1,6 +1,6 @@
 ---
 title: "Gefüllte Süßkartoffel mit Hummus"
-image: "images/gefuellte-suesskartoffel-hummus.jpg"
+image: "images/gefuellte-suesskartoffel-hummus.jpeg"
 summary: "Gefüllte Süßkartoffel mit Hummus, gerösteten Kichererbsen und frischem Gemüse"
 categories: [ "Vegan" ]
 ---

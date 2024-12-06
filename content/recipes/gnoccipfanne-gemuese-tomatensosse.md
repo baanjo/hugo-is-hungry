@@ -1,6 +1,6 @@
 ---
 title: "Gnoccipfanne mit Gemüse und Tomatensoße"
-image: "images/placeholder.png"
+image: "images/gnoccipfanne-gemuese-tomatensosse.jpeg"
 summary: "Gnocci-Pfanne mit Paprika, Zucchini und einer Tomatensoße mit Basilikum"
 categories: [ "Vegan", "Schnell und einfach" ]
 ---
