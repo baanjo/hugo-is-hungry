@@ -13,14 +13,14 @@ categories: [ "Vegan", "Curry" ]
 |----------:|:--------------------------|
 |         1 | rote Zwiebel              |
 |         2 | Knoblauchzehen            |
+|           | Zuckerschoten             |
+|           | Grüne Currypaste          |
+| 400 Gramm | Räuchertofu               |
+|           | (tiefgefrorene) Erbsen    |
 | 1,5 Dosen | Kokosmilch                |
 |           | Gemüsebrühe (nach Bedarf) |
-|           | Grüne Currypaste          |
-|           | (tiefgefrorene) Erbsen    |
-|           | Zuckerschoten             |
-|           | Sprossen oder Edamame     |
-| 400 Gramm | Räuchertofu               |
 |           | (frischer) Koriander      |
+|           | Sprossen oder Edamame     |
 
 ---
 
