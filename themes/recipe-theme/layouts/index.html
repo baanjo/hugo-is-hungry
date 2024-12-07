@@ -28,7 +28,8 @@
 
     <!-- Recipe Cards -->
     <div id="recipeContainer" class="recipe-container">
-        {{ range .Site.RegularPages }}
+        {{ $sortedPages := sort .Site.RegularPages "GitInfo.AuthorDate" "desc" }}
+        {{ range $sortedPages }}
         <a href="{{ .Permalink }}" class="card" data-title="{{ .Title | lower }}"
            data-category="{{ range .Params.categories }}{{ . | lower }} {{ end }}"
            data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
@@ -40,6 +41,8 @@
                 {{ end }}
             </div>
             <p> {{ .Params.note }} </p>
+            <p class="last-modified">{{ .GitInfo.AuthorDate.Format "02.01.2006" }}</p>
+
         </a>
         {{ end }}
     </div>
