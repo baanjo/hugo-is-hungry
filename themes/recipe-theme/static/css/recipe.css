@@ -55,3 +55,8 @@ li.completed {
     text-decoration: line-through;
     color: gray;
 }
+
+.quantity-button {
+    background-color: white;
+    border: none;
+}

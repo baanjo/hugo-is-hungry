@@ -58,7 +58,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 button {
-    padding: 10px 10px;
+    padding: 8px 8px;
     font-size: 14px;
     color: #333333;
     background-color: #e8f5e9;
@@ -114,6 +114,6 @@ button.selected {
     text-transform: uppercase;
 }
 
-.home-button {
+.secondary-button {
     background-color: white;
 }

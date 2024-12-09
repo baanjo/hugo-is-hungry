@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/recipe.css" | absURL }}">
     <script src="{{ "js/checkboxes.js" | absURL }}" defer></script>
+    <script src="{{ "js/adjust-quantities.js" | absURL }}"></script>
 </head>
 <body>
 <div class="container">
-    <button class="home-button" onclick="window.location.href='{{ .Site.BaseURL | relURL }}'">← Zurück zu Rezepten</button>
+    <button class="secondary-button" onclick="window.location.href='{{ .Site.BaseURL | relURL }}'">← Zurück zu Rezepten</button>
 
     <h1 class="title">{{ .Title }}</h1>
     <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
     <p> {{ .Params.summary }} </p>
+
+    <div class="portion-control">
+        <button id="decreasePortion" class="quantity-button">➖</button>
+        <span id="portionDisplay">2</span>
+        <button id="increasePortion" class="quantity-button">➕</button>
+    </div>
 
     <div>
         {{ .Content | safeHTML }}
