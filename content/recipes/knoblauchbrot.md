@@ -2,7 +2,7 @@
 title: "Knoblauchbrot"
 image: "images/knoblauchbrot.jpeg"
 summary: "Warmes Brot mit Knoblauch und Olivenöl"
-categories: [ "Vegan", "Brot", "Schnell und einfach" ]
+categories: [ "Vegan", "Brot" ]
 ---
 
 ---

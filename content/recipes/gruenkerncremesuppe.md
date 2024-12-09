@@ -2,7 +2,7 @@
 title: "Grünkerncremesuppe"
 image: "images/gruenkerncremesuppe.jpeg"
 summary: "Suppe aus Grünkern und Sahne"
-categories: [ "Vegan", "Suppe", "Schnell und einfach" ]
+categories: [ "Vegan", "Suppe" ]
 note: "🚧"
 ---
 

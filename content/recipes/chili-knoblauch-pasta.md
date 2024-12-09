@@ -2,7 +2,7 @@
 title: "Chili-Knoblauch-Pasta"
 image: "images/chili-knoblauch-pasta.jpeg"
 summary: "Pasta mit Knoblauch, Öl, roter Peperoni und Grana Padano"
-categories: [ "Vegetarisch", "Pasta", "Schnell und einfach" ]
+categories: [ "Vegetarisch", "Pasta" ]
 ---
 
 ---

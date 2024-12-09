@@ -2,7 +2,7 @@
 title: "Dinkelvollkornbrot"
 image: "images/dinkelvollkornbrot.jpeg"
 summary: "Brot aus Dinkelvollkornmehl mit Kürbiskernen und Leinsamen"
-categories: [ "Vegan", "Brot", "Frühstück" ]
+categories: [ "Vegan", "Brot" ]
 ---
 
 ---

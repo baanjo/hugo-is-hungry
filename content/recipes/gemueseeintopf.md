@@ -2,7 +2,7 @@
 title: "Gemüseeintopf"
 image: "images/gemueseeintopf.jpeg"
 summary: "Gemüseeintopf mit Kartoffeln"
-categories: [ "Vegan", "Suppe", "Schnell und einfach" ]
+categories: [ "Vegan", "Suppe" ]
 ---
 
 ---

@@ -2,7 +2,7 @@
 title: "Guacamole"
 image: "images/guacamole.jpeg"
 summary: "Avocado-Dip mit Knoblauch, Limette, Olivenöl, Zwiebeln und Tomaten"
-categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Dips und Soßen" ]
+categories: [ "Vegan", "Dips" ]
 ---
 
 ---

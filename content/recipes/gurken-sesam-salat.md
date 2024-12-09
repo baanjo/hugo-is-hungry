@@ -2,7 +2,7 @@
 title: "Gurken-Sesam-Salat"
 image: "images/gurken-sesam-salat.jpeg"
 summary: "Süß-salziger Gurkensalat mit Sesam"
-categories: [ "Vegan", "Salat", "Schnell und einfach" ]
+categories: [ "Vegan", "Salat" ]
 ---
 
 ---

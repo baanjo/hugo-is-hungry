@@ -2,7 +2,7 @@
 title: "Bohnenfrikadellen"
 image: "images/bohnenfrikadellen.jpeg"
 summary: "Frikadellen aus Kidneybohnen"
-categories: [ "Vegan", "Snacks" ]
+categories: [ "Vegan" ]
 ---
 
 ---

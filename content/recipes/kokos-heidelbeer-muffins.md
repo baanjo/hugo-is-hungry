@@ -2,7 +2,7 @@
 title: "Kokos-Heidelbeer-Muffins"
 image: "images/kokos-heidelbeer-muffins.jpeg"
 summary: "Muffins mit Heidelbeeren oder Kiwis und Kokosflocken"
-categories: [ "Vegan", "Süßes", "Schnell und einfach" ]
+categories: [ "Vegan", "Süßes" ]
 ---
 
 ---

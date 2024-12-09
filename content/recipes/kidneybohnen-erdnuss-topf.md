@@ -2,7 +2,7 @@
 title: "Kidneybohnen-Erdnuss-Topf"
 image: "images/kidneybohnen-erdnuss-topf.jpeg"
 summary: "Kidneybohnen mit Tomaten, Erdnuss, Kokosreis und Petersilie"
-categories: [ "Vegan", "Schnell und einfach" ]
+categories: [ "Vegan" ]
 ---
 
 ---

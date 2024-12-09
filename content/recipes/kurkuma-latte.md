@@ -2,7 +2,7 @@
 title: "Kurkuma Latte"
 image: "images/kurkuma-latte.jpeg"
 summary: "Warme Hafermilch mit Kurkuma, Ingwer, Zimt, Pfeffer und Muskat"
-categories: [ "Vegan", "Getränke", "Schnell und einfach" ]
+categories: [ "Vegan", "Getränke" ]
 ---
 
 ---

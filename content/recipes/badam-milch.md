@@ -2,7 +2,7 @@
 title: "Badam-Milch"
 image: "images/badam-milch.jpeg"
 summary: "Warme Hafermilch mit Safran und Kardamom"
-categories: [ "Vegan", "Getränke", "Schnell und einfach" ]
+categories: [ "Vegan", "Getränke" ]
 ---
 
 ---

@@ -2,7 +2,7 @@
 title: "Hummus"
 image: "images/hummus.jpeg"
 summary: "Pürierte Kichererbsen mit Gewürzen"
-categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Dips und Soßen" ]
+categories: [ "Vegan", "Dips" ]
 ---
 
 ---

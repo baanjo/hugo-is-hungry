@@ -2,7 +2,7 @@
 title: "Harira"
 image: "images/harira.jpeg"
 summary: "Suppe aus roten Linsen, Tomaten, Karotten, Sellerie und Kichererbsen gewürzt mit Harissa, Kümmel und Koriander"
-categories: [ "Vegan", "Suppe", "Schnell und einfach" ]
+categories: [ "Vegan", "Suppe" ]
 ---
 
 ---

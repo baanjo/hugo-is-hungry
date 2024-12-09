@@ -2,7 +2,7 @@
 title: "Erbsen-Estragon-Püree"
 image: "images/erbsen-estragon-pueree.jpeg"
 summary: "Erbsen-Püree gewürzt mit Estragon, Olivenöl und Zitrone"
-categories: [ "Vegan", "Schnell und einfach" ]
+categories: [ "Vegan" ]
 ---
 
 ---

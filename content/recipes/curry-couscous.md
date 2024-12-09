@@ -2,7 +2,7 @@
 title: "Curry-Couscous"
 image: "images/curry-couscous.jpeg"
 summary: "Würziger Couscous mit Gemüse, Kräutern und Nüssen"
-categories: [ "Vegan", "Salat", "Schnell und einfach" ]
+categories: [ "Vegan", "Salat" ]
 ---
 
 ---

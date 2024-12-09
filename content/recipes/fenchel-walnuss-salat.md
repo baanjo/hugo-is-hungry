@@ -2,7 +2,7 @@
 title: "Fenchel-Walnuss-Salat"
 image: "images/fenchel-walnuss-salat.jpeg"
 summary: "Schneller Salat aus Fenchelstreifen, Walnüssen, Olivenöl und Balsamico-Essig"
-categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Salat" ]
+categories: [ "Vegan", "Salat" ]
 ---
 
 ---

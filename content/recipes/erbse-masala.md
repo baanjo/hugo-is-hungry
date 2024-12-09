@@ -2,7 +2,7 @@
 title: "Erbse Masala"
 image: "images/erbse-masala.jpeg"
 summary: "Dip oder Brotaufstrich aus Erbsen"
-categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Dips und Soßen" ]
+categories: [ "Vegan", "Dips" ]
 ---
 
 ---

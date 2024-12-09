@@ -2,7 +2,7 @@
 title: "Kartoffelsuppe mit grünen Bohnen"
 image: "images/kartoffelsuppe-gruene-bohnen.jpeg"
 summary: "Cremige Suppe aus Kartoffeln, grünen Bohnen, Crème fraîche und Majoran"
-categories: [ "Vegetarisch", "Suppe", "Schnell und einfach" ]
+categories: [ "Vegetarisch", "Suppe" ]
 ---
 
 ---

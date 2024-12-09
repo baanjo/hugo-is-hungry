@@ -2,7 +2,7 @@
 title: "Brötchen"
 image: "images/broetchen.jpeg"
 summary: "4 Brötchen"
-categories: [ "Vegan", "Brot", "Frühstück" ]
+categories: [ "Vegan", "Brot" ]
 ---
 
 ---

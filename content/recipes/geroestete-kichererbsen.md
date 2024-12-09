@@ -2,7 +2,7 @@
 title: "Geröstete Kichererbsen"
 image: "images/geroestete-kichererbsen.jpeg"
 summary: "Würzige geröstete Kichererbsen"
-categories: [ "Vegan", "Frühstück", "Schnell und einfach", "Snacks" ]
+categories: [ "Vegan" ]
 ---
 
 ---

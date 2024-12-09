@@ -2,7 +2,7 @@
 title: "Brotsalat mit Gemüse"
 image: "images/brotsalat-gemuese.jpeg"
 summary: "Geröstetes Brot mit gebratenem Gemüse"
-categories: [ "Vegan", "Schnell und einfach", "Salat" ]
+categories: [ "Vegan", "Salat" ]
 ---
 
 ---

@@ -2,7 +2,7 @@
 title: "Bohnensalat"
 image: "images/bohnensalat.jpeg"
 summary: "Salat aus weißen Bohnen, Limettensaft, Petersilie und Frühlingszwiebeln"
-categories: [ "Vegan", "Salat", "Schnell und einfach" ]
+categories: [ "Vegan", "Salat" ]
 note: "🚧"
 ---
 

@@ -2,7 +2,7 @@
 title: "Feldsalat mit Kokosdressing und Tofustreifen"
 image: "images/feldsalat-kokosdressing-tofustreifen.jpeg"
 summary: "Feldsalat mit Kokos-Limetten-Dressing, Cashews, Sprossen, Paprika und Räuchertofustreifen"
-categories: [ "Vegan", "Salat", "Schnell und einfach" ]
+categories: [ "Vegan", "Salat" ]
 ---
 
 ---
