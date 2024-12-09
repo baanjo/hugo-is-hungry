@@ -48,7 +48,7 @@ categories: [ "Vegan" ]
 - [ ] Die Bohnen abgießen und abspülen, in einer Pfanne Olivenöl auf mittlere Hitze erhitzen und die Hälfte der Bohnen
   in die Pfanne geben.
 - [ ] Bohnen in der Pfanne mit einem Löffel zerdrücken.
-- [ ] Zweite Hälfte der Bohnen und 1 Teelöffel Salz hinzugeben, vermengen und etwa 3 Minuten anbraten lassen.
+- [ ] Zweite Hälfte der Bohnen und etwas Salz hinzugeben, vermengen und etwa 3 Minuten anbraten lassen.
 - [ ] Wasser zu den Bohnen in die Pfanne geben, aufkochen lassen und etwa 2 Minuten kochen bis die Bohnen cremig sind.
 
 ---

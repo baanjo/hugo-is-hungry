@@ -2,7 +2,8 @@
 title: "Dal Makhani mit Gemüse"
 image: "images/dal-makhani.jpeg"
 summary: "Dal aus schwarzen Linsen (Belugalinsen) mit Süßkartoffel, Möhren und Spinat"
-categories: [ "Vegan", "Curry", "Zwei-Tage-Essen" ]
+categories: [ "Vegan", "Curry" ]
+portions: 4
 ---
 
 ---

@@ -28,7 +28,7 @@ categories: [ "Vegan", "Brot" ]
 - [ ] Hefe in einer großen Schüssel im Wasser auflösen.
 - [ ] Mehl, Margarine, Zucker, Essig und Salz hinzugeben und einige Minuten zu einem Teig verkneten.
 - [ ] Teig abgedeckt 30 Minuten gehen lassen.
-- [ ] Teig in vier Teile teilen, zu Brötchenkugeln formen und auf ein Backrost mit Backpapier geben.
+- [ ] Teig aufteilen (für 2 Portionen in 4 Teile), zu Brötchenkugeln formen und auf ein Backrost mit Backpapier geben.
 - [ ] Brötchen mit Wasser bestreichen, kreuzweise einschneiden und mit Körner der Wahl belegen.
 - [ ] Brötchen 15 Minuten bei 230 Grad (Umluft) backen.
 

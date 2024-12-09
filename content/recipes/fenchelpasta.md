@@ -35,7 +35,7 @@ categories: [ "Vegan", "Pasta" ]
   Salz anbraten bis der Fenchel weich wird (etwa 8 Minuten).
 - [ ] Nudeln abgießen, dabei etwa ein halbes Glas des Kochwassers aufbewahren.
 - [ ] Nudeln in die Pfanne geben, Kochwasser nach Bedarf dazugeben, damit die Pasta cremig wird.
-- [ ] Mit Zitronensaft (je nach Geschmack 0,5-1 Zitrone), Petersilie, Salz, Pfeffer und Dill abschmecken.
+- [ ] Mit Zitronensaft (Menge nach Geschmack), Petersilie, Salz, Pfeffer und Dill abschmecken.
 - [ ] Auf dem Teller nach Geschmack etwas Olivenöl über die Pasta geben.
 
 ---

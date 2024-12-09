@@ -54,7 +54,7 @@ categories: [ "Vegan" ]
 |                 |                     |
 |----------------:|:--------------------|
 |     1 Teelöffel | Tahini              |
-|                 | Olivenöl            |
+| ca. 1 Esslöffel | Olivenöl            |
 | ca. 5 Esslöffel | Wasser              |
 |     2 Teelöffel | Petersilie (frisch) |
 |                 | Salz                |
@@ -62,7 +62,7 @@ categories: [ "Vegan" ]
 |               2 | Frühlingszwiebeln   |
 
 - [ ] 6 Esslöffel Kürbisfleisch (3 aus jeder Hälfte) aus den Kürbishälften entfernen und in einer Schüssel zerdrücken.
-- [ ] Kürbisfleisch mit Tahini, ca. 1 Esslöffel Olivenöl, Wasser, Petersilie, Salz und Pfeffer vermengen.
+- [ ] Kürbisfleisch mit Tahini, Olivenöl, Wasser, Petersilie, Salz und Pfeffer vermengen.
 - [ ] Frühlingszwiebeln in Ringe schneiden und zum Dip geben.
 
 ---
@@ -94,7 +94,7 @@ categories: [ "Vegan" ]
 - [ ] Rotwein hinzufügen und kurz kochen lassen bis der Alkohol verflogen ist.
 - [ ] Gemüsebrühe, Linsen, Lorbeerblatt und Paprika hinzufügen, zum Kochen bringen und für etwa 20 Minuten köcheln
   lassen bis die Linsen gar sind und die meiste Flüssigkeit verdampft ist.
-- [ ] Hitze reduzieren und Linsen mit 1,5 Teelöffel Tahini, Sojasoße und Balsamico vermengen.
+- [ ] Hitze reduzieren und Linsen mit Tahini, Sojasoße und Balsamico vermengen.
 - [ ] Linsenfüllung in die Kürbishälften geben, im Ofen für 10 Minuten backen lassen und anschließend mit dem Dip
   servieren.
 

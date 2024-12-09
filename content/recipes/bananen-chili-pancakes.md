@@ -29,6 +29,8 @@ note: "🚧"
 - [ ] Banane in einer Schüssel zerdrücken.
 - [ ] Petersilie, Frühlingszwiebel und Chili hacken und mit den übrigen Zutaten in die Schüssel geben und zu einem Teig
   vermengen.
-- [ ] Öl in einer Pfanne erhitzen, Teig auf 4 Pancakes aufteilen und diese einige Minuten bei mittlerer Hitze braten.
+- [ ] Öl in einer Pfanne erhitzen, Menge für einen Pancake in die Pfanne geben und Pancake einige Minuten bei mittlerer
+  Hitze braten.
+- [ ] Für übrigen Teig wiederholen.
 
 ---

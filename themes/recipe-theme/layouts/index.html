@@ -18,11 +18,11 @@
 
     <!-- Category filters -->
     <div class="category-menu">
-        <button class="selected" data-category="all">
+        <button class="primary-button selected" data-category="all">
             Alle ({{ len (where .Site.RegularPages "Type" "recipes") }})
         </button>
         {{ range $key, $value := .Site.Taxonomies.categories }}
-        <button class="category-filter" data-category="{{ $key | lower }}">{{ $key | title }} ({{ len $value }})</button>
+        <button class="primary-button category-filter" data-category="{{ $key | lower }}">{{ $key | title }} ({{ len $value }})</button>
         {{ end }}
     </div>
 

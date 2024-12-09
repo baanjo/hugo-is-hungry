@@ -67,6 +67,6 @@ categories: [ "Vegetarisch" ]
 |             | Pfeffer                             |
 
 - [ ] Bulgur nach Packungsanleitung kochen und salzen.
-- [ ] Lauchzwiebeln in Ringe schneiden und mit Petersilie, Nüssen, Zitronenschale, Zitronensaft, Tomatenmark, Salz und 4
-  Esslöffel Olivenöl zum fertigen Bulgur geben.
+- [ ] Lauchzwiebeln in Ringe schneiden und mit Petersilie, Nüssen, Zitronenschale, Zitronensaft, Tomatenmark, Salz und
+  Olivenöl zum fertigen Bulgur geben.
 - [ ] Minze hacken und zum Joghurt geben (nach Geschmack auch noch Salz und Pfeffer hinzufügen).

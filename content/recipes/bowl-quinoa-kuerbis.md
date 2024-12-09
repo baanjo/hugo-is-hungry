@@ -30,10 +30,10 @@ categories: [ "Vegan", "Bowl" ]
 - [ ] Flower sprouts in Olivenöl mit Salz und Pfeffer anbraten.
 - [ ] Quinoa nach Packungsanleitung kochen.
 - [ ] Backofen auf 180 Grad (Umluft) vorheizen.
-- [ ] Kürbis in Scheiben schneiden, in einer Schüssel mit Olivenöl, Salz, Pfeffer und 1 Teelöffel Paprikapulver
+- [ ] Kürbis in Scheiben schneiden, in einer Schüssel mit Olivenöl, Salz, Pfeffer und der Hälfte des Paprikapulvers
   vermengen und 25 Minuten im Ofen backen.
-- [ ] Kichererbsen in einer Pfanne mit Olivenöl, Sojasoße, Salz, Pfeffer und 1 Teelöffel Paprikapulver einige Minuten
-  braten.
+- [ ] Kichererbsen in einer Pfanne mit Olivenöl, Sojasoße, Salz, Pfeffer und der übrigen Hälfte des Paprikapulvers
+  einige Minuten braten.
 - [ ] Granatapfelkerne von der Schale befreien und Nüsse hacken.
 
 ---

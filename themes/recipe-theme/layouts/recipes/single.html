@@ -17,9 +17,10 @@
     <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
     <p> {{ .Params.summary }} </p>
 
-    <div class="portion-control">
+    <h1>Portionen</h1>
+    <div id="portionControl" data-baseline-portions="{{ .Params.portions | default 2 }}">
         <button id="decreasePortion" class="quantity-button">➖</button>
-        <span id="portionDisplay">2</span>
+        <span id="portionDisplay"></span>
         <button id="increasePortion" class="quantity-button">➕</button>
     </div>
 

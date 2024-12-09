@@ -32,11 +32,11 @@ categories: [ "Vegetarisch", "Pasta" ]
 - [ ] Peperoni in dünne Scheiben schneiden und in die Schüssel geben.
 - [ ] Basilikum, Oregano, Petersilie und Gemüsebrühepulver in die Schüssel geben.
 - [ ] Nudeln nach Packungsanleitung kochen.
-- [ ] Nudeln abgießen - dabei etwa 2 Kellen des Nudelwassers aufbewahren und in die Schüssel mit den übrigen Zutaten
-  geben.
+- [ ] Nudeln abgießen - dabei etwa 2 Kellen (je 300 Gramm Nudeln) des Nudelwassers aufbewahren und in die Schüssel mit
+  den übrigen Zutaten geben.
 - [ ] Würzmischung und Wasser gut verrühren und einige Minuten ziehen lassen.
 - [ ] Nudeln 1 Minute im heißen Topf auf dem Herd schwenken, anschließend Gewürzmischung hinzugeben und gut vermengen.
-- [ ] 40 Gramm Hartkäse als Bindemittel hinzufügen.
+- [ ] Grana Padano hinzufügen und vermengen.
 - [ ] Auf Tellern servieren und auf jede Portion einen Schuss Olivenöl geben.
 
 ---

@@ -31,7 +31,7 @@ categories: [ "Vegan" ]
   sie weich sind und sich leicht aufbrechen lassen.
 - [ ] Quinoa nach Packungsanleitung zubereiten und am Ende der Kochzeit leicht salzen.
 - [ ] Frühlingszwiebel, Paprika, Radieschen und Kräuter kleinschneiden und mit Quinoa vermengen.
-- [ ] Für das Dressing die Avocado mit dem Koriander, dem Limettensaft, 0,5 Teelöffel Salz und 2 EL Wasser pürieren.
+- [ ] Für das Dressing die Avocado mit dem Koriander, dem Limettensaft, etwas Salz und etwas Wasser pürieren.
 - [ ] Die Süßkartoffeln aufbrechen und mit dem Quinoa-Salat füllen.
 - [ ] Dressing über die gefüllten Süßkartoffeln geben.
 

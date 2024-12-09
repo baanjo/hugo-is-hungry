@@ -11,6 +11,7 @@ categories: [ "Vegan", "Pasta" ]
 
 |                |                  |
 |---------------:|:-----------------|
+|              3 | Knoblauchzehen   |
 |      150 Gramm | Nudeln           |
 |              1 | Chili            |
 |      200 Gramm | Kaiserschoten    |
@@ -21,8 +22,8 @@ categories: [ "Vegan", "Pasta" ]
 |  40 Milliliter | Sojasoße         |
 |              1 | Limette          |
 |   1 Zentimeter | Ingwer           |
-|              3 | Knoblauchzehen   |
 | 150 Milliliter | Kokosmilch       |
+|  50 Milliliter | Wasser           |
 |                | Öl zum Anbraten  |
 |                | Salz             |
 |                | Pfeffer          |

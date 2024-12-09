@@ -2,7 +2,8 @@
 title: "Kartoffelbrei"
 image: "images/kartoffelbrei.jpeg"
 summary: "Gewürzte gestampfte Kartoffeln"
-categories: [ "Vegan", "Zwei-Tage-Essen" ]
+categories: [ "Vegan" ]
+portions: 4
 ---
 
 ---

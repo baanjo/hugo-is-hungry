@@ -85,14 +85,14 @@ note: "🚧"
 - [ ] Paprika und Tomaten hinzugeben und kurz braten.
 - [ ] Senf, Tomatenmark und Gewürze hinzugeben.
 - [ ] Petersilie hacken und mit der Füllung vermengen.
-- [ ] Teig in 4 Teile teilen und dünn (ca. 0,5 Zentimeter) ausrollen.
+- [ ] Teig aufteilen (für 2 Portionen in 4 Teile) und dünn (ca. 0,5 Zentimeter) ausrollen.
 - [ ] Jeden Teigfladen mit Füllung bestreichen und für 10-13 Minuten bei 180 Grad (Umluft) backen.
 - [ ] Gurke in feine Scheiben schneiden.
 - [ ] Teigfladen nach dem Backen mit etwas Limettensaft beträufeln und mit Gurke und Joghurtsoße servieren.
 
 ---
 
-# 3. Jogjurtdip
+# 3. Jogurtdip
 
 |               |                          |
 |--------------:|:-------------------------|

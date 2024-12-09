@@ -67,9 +67,11 @@ categories: [ "Vegan" ]
 
 - [ ] Harte Enden der Bohnen abschneiden, Bohnen in Wasser geben und Wasser zum Kochen bringen.
 - [ ] Bohnen kurz (etwa 2-4 Minuten) kochen bis die Bohnen gar aber noch bissfest sind und sie anschließend abgießen.
-- [ ] Paprika in grobe Stücke schneiden und mit Mandeln, Olivenöl, Petersilie, Limettensaft, Knoblauch und 0,5 Teelöffel
-  Salz zu einem Dip pürieren.
+- [ ] Paprika in grobe Stücke schneiden.
+- [ ] Paprika mit Mandeln, Olivenöl, Petersilie, Limettensaft, Knoblauch und Salz zu einem Dip pürieren.
 - [ ] Bohnen und Dip vermengen.
+
+---
 
 # 3. Kartoffeln
 

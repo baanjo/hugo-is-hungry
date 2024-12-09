@@ -2,7 +2,8 @@
 title: "Chili sin carne"
 image: "images/chili-sin-carne.jpeg"
 summary: "Chili sin carne mit Kidneybohnen, Tofu, Mais, Paprika, Zucchini und Koriander"
-categories: [ "Vegan", "Zwei-Tage-Essen" ]
+categories: [ "Vegan" ]
+portions: 4
 ---
 
 ---

@@ -79,7 +79,7 @@ categories: [ "Vegan", "Curry" ]
   ist.
 - [ ] Die übrigen Zutaten hinzufügen, vermengen und zu einem glatten Teig kneten.
 - [ ] Teig abdecken und für mindestens 30 Minuten an einem warmen Ort aufgehen lassen.
-- [ ] Teig in 8 Teile trennen und aus jedem einen Fladen von etwa 0,5 Zentimeter Dicke formen.
+- [ ] Teig aufteilen (für 2 Portionen in 8 Teile) und aus jedem einen Fladen von etwa 0,5 Zentimeter Dicke formen.
 - [ ] Fladen in einer heißen, beschichteten Pfanne ohne Öl von beiden Seiten backen bis der Teig durch und das Brot
   leicht gebräunt ist.
 

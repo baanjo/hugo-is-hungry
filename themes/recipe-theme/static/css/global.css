@@ -61,7 +61,6 @@ button {
     padding: 8px 8px;
     font-size: 14px;
     color: #333333;
-    background-color: #e8f5e9;
     border: 1px solid seagreen;
     border-radius: 3px;
     cursor: pointer;
@@ -73,10 +72,18 @@ button:hover {
     box-shadow: 0 2px 4px #333333; /* Increases shadow on hover */
 }
 
-button.selected {
+.primary-button {
+    background-color: #e8f5e9;
+}
+
+.primary-button.selected {
     background-color: seagreen;
     color: white;
     border-color: #333333;
+}
+
+.secondary-button {
+    background-color: white;
 }
 
 .recipe-container {
@@ -112,8 +119,4 @@ button.selected {
 
 .title {
     text-transform: uppercase;
-}
-
-.secondary-button {
-    background-color: white;
 }

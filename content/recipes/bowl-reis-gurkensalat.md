@@ -35,7 +35,7 @@ categories: [ "Vegan", "Bowl" ]
 |               |                        |
 |--------------:|:-----------------------|
 |     200 Gramm | Reis (z.B. Jasminreis) |
-|               | Reisessig              |
+|   2 Esslöffel | Reisessig              |
 | 0,5 Teelöffel | Salz                   |
 |   2 Teelöffel | Zucker                 |
 |             2 | Noriblätter            |
@@ -45,9 +45,9 @@ categories: [ "Vegan", "Bowl" ]
 |               | Sesamöl                |
 
 - [ ] Reis nach Packungsanleitung kochen.
-- [ ] 2 Esslöffel Reisessig mit Salz und Zucker vermengen.
+- [ ] Zwei Drittel des Reisessigs mit Salz und Zucker vermengen.
 - [ ] Reis mit Reisessigmischung und in Flocken geschnittenen Noriblättern vermengen.
-- [ ] Für die Soße Sojasoße, 1 Esslöffel Reisessig, Agavendicksaft, Sriracha und etwas Sesamöl vermengen.
+- [ ] Für die Soße Sojasoße, übriges Drittel des Reisessigs, Agavendicksaft, Sriracha und etwas Sesamöl vermengen.
 - [ ] Etwas Sesamöl in eine Pfanne geben und Reis vorsichtig anbraten bis der Reis an der Unterseite leicht gebräunt und
   knusprig ist.
 - [ ] Soße mit dem Reis vermengen.

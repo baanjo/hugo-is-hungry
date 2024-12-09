@@ -66,7 +66,7 @@ categories: [ "Vegan", "Salat" ]
 |               | Pfeffer                                                 |
 
 - [ ] Ingwer fein hacken
-- [ ] Abrieb und Saft der Limette, 2 Esslöffel Olivenöl, Kokosmilch, Ingwer und Agavendicksaft/Honig vermengen.
+- [ ] Abrieb und Saft der Limette, Olivenöl, Kokosmilch, Ingwer und Agavendicksaft/Honig vermengen.
 - [ ] Dressing mit Salz und Pfeffer abschmecken.
 - [ ] Feldsalat, Paprika, Tomaten, Cashews, Sprossen und Tofustreifen mit dem Dressing vermengen.
 

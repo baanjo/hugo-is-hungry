@@ -63,8 +63,7 @@ categories: [ "Vegetarisch", "Bowl" ]
 |               | Salz                |
 |               | Pfeffer             |
 
-- [ ] Tofu in Würfel schneiden, in einer Schüssel mit 1-2 Esslöffel Sojasoße marinieren und in einer Pfanne in etwas Öl
-  braten.
+- [ ] Tofu in Würfel schneiden, in einer Schüssel mit Sojasoße marinieren und in einer Pfanne in etwas Öl braten.
 - [ ] Spiegeleier in einer Pfanne mit etwas Öl braten und mit Salz und Pfeffer würzen.
 
 ---
@@ -81,7 +80,7 @@ categories: [ "Vegetarisch", "Bowl" ]
 |             1 Esslöffel | Reisessig                            |
 
 - [ ] Knoblauch fein hacken
-- [ ] Knoblauch mit Gochujang-Paste, 1 Esslöffel Sojasoße, Sesamöl, Honig und Reisessig vermengen.
+- [ ] Knoblauch mit Gochujang-Paste, Sojasoße, Sesamöl, Honig und Reisessig vermengen.
 
 ---
 
