@@ -1,5 +1,7 @@
-// Format a number to use a comma as a decimal separator
-const formatNumber = (value) => value.toString().replace(".", ",");
+// Format a number to use a comma as a decimal separator, rounded to 4 places
+const formatNumber = (value) => {
+    return value.toFixed(4).replace(".", ",").replace(/,?0+$/, "");
+};
 
 // Store and retrieve the original cell content
 const getOriginalText = (cell) => {
