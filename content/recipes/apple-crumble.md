@@ -1,6 +1,9 @@
 ---
 title: "Apple Crumble"
-image: "images/apple-crumble.jpeg"
+images:
+  - "images/bibimbap.jpeg"
+  - "images/apple-crumble.jpeg"
+  - "images/badam-milch.jpeg"
 summary: "Apple Crumble mit Zimt und Marzipanstreuseln"
 categories: [ "Vegan", "Süßes" ]
 note: "🚧"

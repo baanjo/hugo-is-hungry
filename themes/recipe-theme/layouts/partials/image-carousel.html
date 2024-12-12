@@ -1,0 +1,8 @@
+<div class="carousel">
+    <div class="carousel-container">
+        {{ range .Params.images }}
+        <img src="{{ . | absURL }}" class="carousel-image"> {{ end }}
+    </div>
+    <button class="carousel-btn prev-btn">&#10094;</button>
+    <button class="carousel-btn next-btn">&#10095;</button>
+</div>

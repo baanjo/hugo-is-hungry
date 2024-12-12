@@ -6,15 +6,17 @@
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/recipe.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/carousel.css" | absURL }}">
     <script src="{{ "js/checkboxes.js" | absURL }}" defer></script>
     <script src="{{ "js/adjust-quantities.js" | absURL }}"></script>
+    <script src="{{ "js/carousel.js" | absURL }}"></script>
 </head>
 <body>
 <div class="container">
     <button class="secondary-button" onclick="window.location.href='{{ .Site.BaseURL | relURL }}'">← Zurück zu Rezepten</button>
 
     <h1 class="title">{{ .Title }}</h1>
-    <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+    {{ partial "image-carousel.html" . }}
     <p> {{ .Params.summary }} </p>
 
     <h1>Portionen</h1>
@@ -23,6 +25,7 @@
         <span id="portionDisplay"></span>
         <button id="increasePortion" class="quantity-button">➕</button>
     </div>
+
 
     <div>
         {{ .Content | safeHTML }}
