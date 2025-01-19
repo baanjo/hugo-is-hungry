@@ -18,9 +18,9 @@ categories: [ "Vegan" ]
 |               | Sesamöl        |
 |             3 | Knoblauchzehen |
 |  2 Zentimeter | Ingwer         |
-| 35 Milliliter | Sojasoße       |
-| 35 Milliliter | Sriracha       |
-|      10 Gramm | brauner Zucker |
+| 25 Milliliter | Sojasoße       |
+| 25 Milliliter | Sriracha       |
+|      5 Gramm | brauner Zucker |
 |             1 | Karotte        |
 |     100 Gramm | Reis           |
 |               | Salz           |
@@ -53,9 +53,9 @@ categories: [ "Vegan" ]
 |             3 | Knoblauchzehen |
 |  2 Zentimeter | Ingwer         |
 |   1 Esslöffel | Sesamöl        |
-| 35 Milliliter | Sojasoße       |
-| 35 Milliliter | Sriracha       |
-|      10 Gramm | brauner Zucker |
+| 25 Milliliter | Sojasoße       |
+| 25 Milliliter | Sriracha       |
+|      5 Gramm | brauner Zucker |
 |             1 | Karotte        |
 
 - [ ] Cashews und Sesam anrösten und beiseitestellen.
