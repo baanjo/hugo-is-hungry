@@ -3,7 +3,7 @@ title: "Zaatar-Kichererbsen-Brokkoli-Pfanne"
 image: "images/zaatar-kichererbsen-brokkoli-pfanne.jpeg"
 summary: "Gebratene Kichererbsen mit Zaatar, Paprika und Brokkoli sowie Couscous"
 categories: [ "Vegan" ]
-note: "🚧"
+note:
 ---
 
 ---
@@ -12,14 +12,14 @@ note: "🚧"
 
 |               |                                       |
 |--------------:|:--------------------------------------|
-|     250 Gramm | Brokkoli                              |
+|     250 Gramm | Brokkoli/Romanesco                              |
 |               | Öl                                    |
 |     400 Gramm | Kichererbsen (gekocht)                |
-| 2-3 Teelöffel | Zaatar                                |
+|  2-3 Esslöfel | Zaatar                                |
 |               | Kreuzkümmel (gemahlen) für das Gemüse |
 |               | Koriander (gemahlen) für das Gemüse   |
 |      1 kleine | Spitzpaprika                          |
-|           0,5 | Chili                                 |
+|             1 | Chili                                 |
 |     100 Gramm | Couscous                              |
 |     150 Gramm | Joghurt                               |
 |             2 | Knoblauchzehen                        |
@@ -34,11 +34,11 @@ note: "🚧"
 |               |                        |
 |--------------:|:-----------------------|
 |     100 Gramm | Couscous               |
-|     250 Gramm | Brokkoli               |
-|           0,5 | Chili                  |
+|     250 Gramm | Brokkoli/Romanesco               |
+|             1 | Chili                  |
 |     400 Gramm | Kichererbsen (gekocht) |
 |               | Öl                     |
-| 2-3 Teelöffel | Zaatar                 |
+| 2-3 Esslöffel | Zaatar                 |
 | 0,5 Teelöffel | Kreuzkümmel (gemahlen) |
 | 0,5 Teelöffel | Koriander (gemahlen)   |
 |      1 kleine | Spitzpaprika           |
