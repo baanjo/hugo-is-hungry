@@ -18,9 +18,9 @@ categories: [ "Vegetarisch", "Pasta" ]
 |   1 Teelöffel | Basilikum                                |
 |   1 Teelöffel | Oregano                                  |
 |   5 Esslöffel | Petersilie                               |
-|   2 Teelöffel | Gemüsebrühe                              |
+|   1 Teelöffel | Gemüsebrühe                              |
 |     300 Gramm | Nudeln                                   |
-|      40 Gramm | Grana Padano                             |
+|      60 Gramm | Grana Padano                             |
 |               | Olivenöl                                 |
 
 ---
