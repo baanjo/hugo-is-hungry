@@ -12,10 +12,10 @@ note:
 
 |               |                                       |
 |--------------:|:--------------------------------------|
-|     250 Gramm | Brokkoli/Romanesco                              |
+|     250 Gramm | Brokkoli/Romanesco                    |
 |               | Öl                                    |
 |     400 Gramm | Kichererbsen (gekocht)                |
-|  2-3 Esslöfel | Zaatar                                |
+| 2-3 Esslöffel | Zaatar                                |
 |               | Kreuzkümmel (gemahlen) für das Gemüse |
 |               | Koriander (gemahlen) für das Gemüse   |
 |      1 kleine | Spitzpaprika                          |
@@ -34,7 +34,7 @@ note:
 |               |                        |
 |--------------:|:-----------------------|
 |     100 Gramm | Couscous               |
-|     250 Gramm | Brokkoli/Romanesco               |
+|     250 Gramm | Brokkoli/Romanesco     |
 |             1 | Chili                  |
 |     400 Gramm | Kichererbsen (gekocht) |
 |               | Öl                     |
