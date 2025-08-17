@@ -2,7 +2,6 @@ name: PR Preview
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, closed]
 
 permissions:
   contents: write
@@ -11,7 +10,6 @@ permissions:
 jobs:
   preview:
     runs-on: ubuntu-latest
-    if: github.event.action != 'closed'
     steps:
       - uses: actions/checkout@v5
         with:
@@ -22,44 +20,38 @@ jobs:
           hugo-version: '0.148.2'
           extended: true
 
-      - run: hugo --enableGitInfo --minify --baseURL "https://baanjo.github.io/hugo-is-hungry/pr-${{ github.event.number }}/"
+      - run: hugo --enableGitInfo --minify --baseURL "https://baanjo.github.io/hugo-is-hungry/"
 
       - run: |
-          git fetch origin gh-pages:gh-pages || git checkout --orphan gh-pages
-          git checkout gh-pages
-          mkdir -p pr-${{ github.event.number }}
-          cp -r public/* pr-${{ github.event.number }}/
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add pr-${{ github.event.number }}
-          git commit -m "Add PR ${{ github.event.number }} preview" || exit 0
-          git push origin gh-pages
+          git fetch origin gh-pages || true
+          git checkout -B gh-pages-pr-${{ github.event.number }}
+          rm -rf * || true
+          cp -r public/* .
+          git add .
+          git commit -m "PR ${{ github.event.number }} preview" || exit 0
+          git push -f origin gh-pages-pr-${{ github.event.number }}
 
       - uses: actions/github-script@v7
         with:
           script: |
-            const previewUrl = `https://baanjo.github.io/hugo-is-hungry/pr-${{ github.event.number }}/`;
+            const branchUrl = `https://github.com/${{ github.repository }}/tree/gh-pages-pr-${{ github.event.number }}`;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `🚀 Preview: ${previewUrl}`
+              body: `🚀 **PR Preview built!**
+              
+              📁 Files: ${branchUrl}
+              
+              ⚡ To test locally:
+              \`\`\`bash
+              git fetch origin gh-pages-pr-${{ github.event.number }}
+              git checkout gh-pages-pr-${{ github.event.number }}
+              python3 -m http.server 8000
+              # Then visit http://localhost:8000
+              \`\`\`
+              
+              The preview contains your design changes and can be downloaded as a static site.`
             });
-
-  cleanup:
-    runs-on: ubuntu-latest
-    if: github.event.action == 'closed'
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          ref: gh-pages
-
-      - run: |
-          if [ -d "pr-${{ github.event.number }}" ]; then
-            rm -rf pr-${{ github.event.number }}
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "Remove PR ${{ github.event.number }} preview" || exit 0
-            git push
-          fi
