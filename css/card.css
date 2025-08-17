@@ -1,0 +1,49 @@
+.card {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: #2c3e50;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card h3 {
+    margin: 1.5rem 1rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.card p {
+    margin: 0.5rem 1rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.last-modified {
+    font-size: 0.8rem;
+    color: #95a5a6;
+    margin: 1rem;
+    font-style: italic;
+}
