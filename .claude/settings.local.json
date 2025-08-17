@@ -6,7 +6,11 @@
       "Bash(gh run view 17023148511 --log-failed)",
       "Bash(git add .)",
       "Bash(git commit -m \"Fix PR preview workflow - preserve public directory during cleanup\")",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(gh run list --limit 1)",
+      "Bash(gh run view --log-failed)",
+      "Bash(gh run view 17023417697 --log-failed)",
+      "Bash(git commit -m \"Fix PR preview workflow - use orphan branch approach\")"
     ],
     "deny": [],
     "ask": []
