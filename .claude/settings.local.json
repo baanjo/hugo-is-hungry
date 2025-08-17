@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run list --limit 5)",
+      "Bash(gh run view 17023148511)",
+      "Bash(gh run view 17023148511 --log-failed)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"Fix PR preview workflow - preserve public directory during cleanup\")",
+      "Bash(git push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

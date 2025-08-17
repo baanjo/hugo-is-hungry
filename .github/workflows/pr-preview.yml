@@ -27,8 +27,8 @@ jobs:
           git config user.email github-actions@github.com
           git fetch origin gh-pages || true
           git checkout -B gh-pages-pr-${{ github.event.number }}
-          rm -rf * || true
-          cp -r public/* .
+          find . -maxdepth 1 -not -name '.git' -not -name 'public' -not -name '.' -delete
+          cp -r public/* . 2>/dev/null || cp -r public/. . 2>/dev/null || echo "No files to copy"
           git add .
           git commit -m "PR ${{ github.event.number }} preview" || exit 0
           git push -f origin gh-pages-pr-${{ github.event.number }}
