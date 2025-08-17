@@ -33,11 +33,11 @@ li {
 /* General table styling */
 table {
     margin: 2rem auto;
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    background: #f8f9fa;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(39, 174, 96, 0.1);
+    border: 1px solid rgba(46, 139, 87, 0.1);
 }
 
 /* Table header */
@@ -52,7 +52,7 @@ td {
 }
 
 td:first-child {
-    color: #27ae60;
+    color: #2E8B57;
     font-weight: 600;
 }
 
@@ -60,7 +60,7 @@ hr {
     margin: 3rem 0;
     border: none;
     height: 2px;
-    background: linear-gradient(135deg, transparent, #27ae60, transparent);
+    background: linear-gradient(135deg, transparent, #2E8B57, transparent);
     border-radius: 2px;
 }
 
@@ -71,8 +71,8 @@ li.completed {
 }
 
 .quantity-button {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    border: 2px solid #27ae60;
+    background: #f8f9fa;
+    border: 2px solid #2E8B57;
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -86,7 +86,7 @@ li.completed {
 }
 
 .quantity-button:hover {
-    background: #27ae60;
+    background: #2E8B57;
     color: white;
     transform: scale(1.1);
 }
@@ -110,7 +110,7 @@ li.completed {
 input[type="checkbox"] {
     width: 1.2rem;
     height: 1.2rem;
-    accent-color: #27ae60;
+    accent-color: #2E8B57;
 }
 
 h1 {

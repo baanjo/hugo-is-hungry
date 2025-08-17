@@ -2,7 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: #f5f7fa;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,8 +40,8 @@ input[type="search"] {
 }
 
 input[type="search"]:focus {
-    border-color: #27ae60;
-    box-shadow: 0 4px 20px rgba(39, 174, 96, 0.15);
+    border-color: #2E8B57;
+    box-shadow: 0 4px 20px rgba(46, 139, 87, 0.15);
     transform: translateY(-2px);
 }
 
@@ -68,14 +68,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .category-pill {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    background: #2E8B57;
     color: white;
     border: none;
     border-radius: 25px;
     font-size: 0.85rem;
     font-weight: 500;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(39, 174, 96, 0.3);
+    box-shadow: 0 2px 8px rgba(46, 139, 87, 0.3);
 }
 
 button {
@@ -83,7 +83,7 @@ button {
     font-size: 0.9rem;
     font-weight: 500;
     color: #2c3e50;
-    border: 2px solid #27ae60;
+    border: 2px solid #2E8B57;
     border-radius: 25px;
     cursor: pointer;
     background: #ffffff;
@@ -93,20 +93,20 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 15px rgba(39, 174, 96, 0.2);
-    background: #27ae60;
+    box-shadow: 0 8px 15px rgba(46, 139, 87, 0.2);
+    background: #2E8B57;
     color: white;
 }
 
 .primary-button {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    background: #f8f9fa;
 }
 
 .primary-button.selected {
-    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    background: #2E8B57;
     color: white;
-    border-color: #27ae60;
-    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    border-color: #2E8B57;
+    box-shadow: 0 4px 15px rgba(46, 139, 87, 0.3);
 }
 
 .secondary-button {
@@ -144,10 +144,7 @@ button:hover {
 .title, h1 {
     text-align: center;
     font-family: 'Georgia', 'Times New Roman', serif;
-    background: linear-gradient(135deg, #27ae60, #2ecc71);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #2E8B57;
     font-weight: 700;
     margin-bottom: 2rem;
 }
