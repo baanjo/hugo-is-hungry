@@ -24,12 +24,16 @@ jobs:
 
       - run: hugo --enableGitInfo --minify --baseURL "https://baanjo.github.io/hugo-is-hungry/pr-${{ github.event.number }}/"
 
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          destination_dir: pr-${{ github.event.number }}
-          keep_files: true
+      - run: |
+          git fetch origin gh-pages:gh-pages || git checkout --orphan gh-pages
+          git checkout gh-pages
+          mkdir -p pr-${{ github.event.number }}
+          cp -r public/* pr-${{ github.event.number }}/
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add pr-${{ github.event.number }}
+          git commit -m "Add PR ${{ github.event.number }} preview" || exit 0
+          git push origin gh-pages
 
       - uses: actions/github-script@v7
         with:
@@ -51,9 +55,11 @@ jobs:
           ref: gh-pages
 
       - run: |
-          rm -rf pr-${{ github.event.number }}
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "Remove PR ${{ github.event.number }} preview" || exit 0
-          git push
+          if [ -d "pr-${{ github.event.number }}" ]; then
+            rm -rf pr-${{ github.event.number }}
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "Remove PR ${{ github.event.number }} preview" || exit 0
+            git push
+          fi
