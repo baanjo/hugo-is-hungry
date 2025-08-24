@@ -15,10 +15,10 @@ note: "🚧"
 |           1 | Zwiebel                     |
 |           1 | Karotte                     |
 |           2 | Knoblauchzehen              |
-|         2cm | Ingwer                      |
+|        2 cm | Ingwer                      |
 |           2 | Tomaten                     |
-|        600g | Kichererbsen                |
-|       200ml | Sahne/Hafersahne            |
+|       600 g | Kichererbsen                |
+|      200 ml | Sahne/Hafersahne            |
 |  1 Handvoll | frischer Dill               |
 | 1 Esslöffel | Sojasoße                    |
 | 1 Teelöffel | Kreuzkümmel                 |
