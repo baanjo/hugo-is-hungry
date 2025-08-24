@@ -26,13 +26,13 @@ body {
 }
 
 input[type="search"] {
-    display: block;
-    min-width: 50%;
+    display: block; /* Ensure the input behaves like a block element */
+    min-width: 50%; /* Force the width to be 50% of the parent container */
     margin-bottom: 2rem;
     padding: 1rem 1.5rem;
-    font-size: 1rem;
-    border: 2px solid #e0e6ed;
-    border-radius: 50px;
+    font-size: 1rem; /* Ensure readable text */
+    border: 2px solid #e0e6ed; /* Add a standard border */
+    border-radius: 50px; /* Optional: rounded corners */
     background: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
@@ -71,10 +71,10 @@ input[type="search"]::-webkit-search-cancel-button {
     background: transparent;
     color: #2E8B57;
     border: 1px solid #2E8B57;
-    border-radius: 20px;
-    font-size: 0.75rem;
+    border-radius: 20px; /* Round the corners to create pill shape */
+    font-size: 0.75rem; /* Adjust font size */
     font-weight: 500;
-    text-align: center;
+    text-align: center; /* Center text within the pill */
     box-shadow: none;
 }
 
@@ -87,13 +87,13 @@ button {
     border-radius: 25px;
     cursor: pointer;
     background: #ffffff;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* Smooth hover effect */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 15px rgba(46, 139, 87, 0.2);
+    transform: translateY(-2px); /* Moves the button up slightly */
+    box-shadow: 0 8px 15px rgba(46, 139, 87, 0.2); /* Increases shadow on hover */
     background: #2E8B57;
     color: white;
 }
@@ -115,11 +115,11 @@ button:hover {
 }
 
 .recipe-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: grid;  /* Use CSS Grid for layout */
+    grid-template-columns: repeat(3, 1fr); /* Always have 3 equal columns */
+    gap: 2rem; /* Space between cards */
     width: 100%;
-    justify-content: center;
+    justify-content: center; /* Center the grid container */
     margin-top: 2rem;
 }
 

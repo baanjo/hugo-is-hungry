@@ -1,25 +1,25 @@
 .card {
     border-radius: 20px;
     border: none;
-    text-align: center;
+    text-align: center; /* Remove link styling */
     text-decoration: none;
     color: #2c3e50;
     background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Optional shadow for better depth */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth hover effect */
+    overflow: hidden; /* needed? */
     backdrop-filter: blur(10px);
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px) scale(1.02); /* Moves the card up slightly */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Increases shadow on hover */
 }
 
 .card img {
     width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
+    aspect-ratio: 16 / 9; /* Ensures a consistent aspect ratio */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
     transition: transform 0.4s ease;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .last-modified {
-    font-size: 0.8rem;
+    font-size: 0.8rem; /* Adjust font size */
     color: #95a5a6;
     margin: 1rem;
     font-style: italic;
