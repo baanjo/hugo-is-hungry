@@ -10,33 +10,34 @@ note: "🚧"
 
 # Zutaten
 
-|             |                             |
-|------------:|:----------------------------|
-|           1 | Zwiebel                     |
-|           1 | Karotte                     |
-|           2 | Knoblauchzehen              |
-|        2 cm | Ingwer                      |
-|           2 | Tomaten                     |
-|       600 g | Kichererbsen                |
-|      200 ml | Sahne/Hafersahne            |
-|  1 Handvoll | frischer Dill               |
-| 1 Esslöffel | Sojasoße                    |
-| 1 Teelöffel | Kreuzkümmel                 |
-| 1 Teelöffel | Kurkuma                     |
-| 1 Teelöffel | Koriander                   |
-| 1 Teelöffel | Paprikagewürz (Rosenscharf) |
-|  1 Handvoll | Blattspinat                 |
-|         1/2 | Zitrone oder Limette        |
-|             | Öl zum Braten               |
-|             | Salz                        |
-|             | Pfeffer                     |
+|                |                             |
+|---------------:|:----------------------------|
+|              1 | Zwiebel                     |
+|              1 | Karotte                     |
+|              2 | Knoblauchzehen              |
+|   2 Centimeter | Ingwer                      |
+|              2 | Tomaten                     |
+|      600 Gramm | Kichererbsen                |
+| 200 Milliliter | Sahne/Hafersahne            |
+|     1 Handvoll | frischer Dill               |
+|    1 Esslöffel | Sojasoße                    |
+|    1 Teelöffel | Kreuzkümmel                 |
+|    1 Teelöffel | Kurkuma                     |
+|    1 Teelöffel | Koriander                   |
+|    1 Teelöffel | Paprikagewürz (Rosenscharf) |
+|     1 Handvoll | Blattspinat                 |
+|            0,5 | Zitrone oder Limette        |
+|                | Öl zum Braten               |
+|                | Salz                        |
+|                | Pfeffer                     |
 
 ---
 
 # 1.
 
-- [ ] Zwiebeln, Karotten, Knoblauch und Ingwer schneiden. Tomaten grob teilen. Zitrone abreiben. Dill hacken.
-- [ ] Kichererbsen abgießen und abspülen. Die Hälfte der Kichererbsen mit den Tomaten, Zitronenabrieb und der Sojasoße püririeren. Die andere hälfte beisteite stellen.
+- [ ] Zwiebeln, Karotten, Knoblauch und Ingwer klein schneiden; Tomaten grob teilen. 
+- [ ] Zitrone abreiben und Dill hacken.
+- [ ] Kichererbsen abgießen und abspülen. Die Hälfte der Kichererbsen mit den Tomaten, Zitronenabrieb und der Sojasoße pürieren. Die andere Hälfte beiseite stellen.
 - [ ] Zwiebeln in einem großen Topf glasig braten.
 - [ ] Karotten, Knoblauch und Ingwer hinzugeben und etwas anbraten.
 - [ ] Kreuzkümmel, Kurkuma, Koriander und Paprikagewürz hinzugeben und kurz mitbraten.
