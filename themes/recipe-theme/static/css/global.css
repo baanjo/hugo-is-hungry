@@ -115,7 +115,7 @@ button:hover {
 }
 
 .recipe-container {
-    display: grid;  /* Use CSS Grid for layout */
+    display: grid; /* Use CSS Grid for layout */
     grid-template-columns: repeat(3, 1fr); /* Always have 3 equal columns */
     gap: 2rem; /* Space between cards */
     width: 100%;
