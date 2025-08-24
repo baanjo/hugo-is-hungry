@@ -1,18 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
     padding: 0;
+    background: #f5f7fa;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #333333;
+    color: #2c3e50;
+    line-height: 1.6;
 }
 
 .container {
     min-width: 60%;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,11 +28,21 @@ body {
 input[type="search"] {
     display: block; /* Ensure the input behaves like a block element */
     min-width: 50%; /* Force the width to be 50% of the parent container */
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 16px; /* Ensure readable text */
-    border: 1px solid #333333; /* Add a standard border */
-    border-radius: 2px; /* Optional: rounded corners */
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem; /* Ensure readable text */
+    border: 2px solid #e0e6ed; /* Add a standard border */
+    border-radius: 50px; /* Optional: rounded corners */
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input[type="search"]:focus {
+    border-color: #2E8B57;
+    box-shadow: 0 4px 20px rgba(46, 139, 87, 0.15);
+    transform: translateY(-2px);
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -50,48 +67,60 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .category-pill {
     display: inline-block;
-    padding: 5px 10px;
-    border: 1px solid seagreen;
-    border-radius: 30px; /* Round the corners to create pill shape */
-    font-size: 14px; /* Adjust font size */
+    padding: 0.3rem 0.75rem;
+    background: transparent;
+    color: #2E8B57;
+    border: 1px solid #2E8B57;
+    border-radius: 20px; /* Round the corners to create pill shape */
+    font-size: 0.75rem; /* Adjust font size */
+    font-weight: 500;
     text-align: center; /* Center text within the pill */
+    box-shadow: none;
 }
 
 button {
-    padding: 8px 8px;
-    font-size: 14px;
-    color: #333333;
-    border: 1px solid seagreen;
-    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2c3e50;
+    border: 2px solid #2E8B57;
+    border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+    background: #ffffff;
+    transition: all 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 button:hover {
-    transform: translateY(-3px); /* Moves the button up slightly */
-    box-shadow: 0 2px 4px #333333; /* Increases shadow on hover */
+    transform: translateY(-2px); /* Moves the button up slightly */
+    box-shadow: 0 8px 15px rgba(46, 139, 87, 0.2); /* Increases shadow on hover */
+    background: #2E8B57;
+    color: white;
 }
 
 .primary-button {
-    background-color: #e8f5e9;
+    background: #f8f9fa;
 }
 
 .primary-button.selected {
-    background-color: seagreen;
+    background: #2E8B57;
     color: white;
-    border-color: #333333;
+    border-color: #2E8B57;
+    box-shadow: 0 4px 15px rgba(46, 139, 87, 0.3);
 }
 
 .secondary-button {
-    background-color: white;
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #6c757d;
 }
 
 .recipe-container {
     display: grid; /* Use CSS Grid for layout */
     grid-template-columns: repeat(3, 1fr); /* Always have 3 equal columns */
-    gap: 20px; /* Space between cards */
+    gap: 2rem; /* Space between cards */
     width: 100%;
     justify-content: center; /* Center the grid container */
+    margin-top: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -114,9 +143,14 @@ button:hover {
 
 .title, h1 {
     text-align: center;
-    font-family: 'Bradley Hand', cursive;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #2E8B57;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .title {
     text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
