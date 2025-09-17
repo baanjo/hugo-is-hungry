@@ -28,7 +28,7 @@ categories: [ "Vegan", "Curry" ]
 
 # 1.
 
-- [ ] Linsen waschen und zusammen mit 600 Milliliter Wasser, Kurkuma, etwas Öl und etwas Salz in einem Topf 15-20
+- [ ] Linsen waschen und zusammen mit 600 Milliliter Wasser, Kurkuma, etwas Öl und einer Menge Salz in einem Topf 15-20
   Minuten (oder nach Packungsanleitung) kochen.
 - [ ] Regelmäßig umrühren und bei Bedarf Wasser nachgeben.
 - [ ] Ingwer schälen und Ingwer, Zwiebel, Chili, Koriander, Tomaten und Knoblauch getrennt voneinander kleinschneiden.
