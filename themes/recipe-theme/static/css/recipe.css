@@ -12,11 +12,6 @@ img {
     }
 }
 
-input[type="checkbox"] {
-    margin-right: 10px;
-    cursor: pointer;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -30,14 +25,23 @@ li {
     align-items: flex-start;  /* Align text with the top of the checkbox */
 }
 
+li.completed {
+    text-decoration: line-through;
+    color: #95a5a6;
+    opacity: 0.7;
+}
+
 /* General table styling */
 table {
-    margin: 2rem auto; /* Ensures the table is centered */
+    margin: 1rem auto; /* Ensures the table is centered */
     background: #f8f9fa;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(46, 139, 87, 0.1);
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
 }
 
 /* Table header */
@@ -47,13 +51,20 @@ th {
 
 /* Table body cells */
 td {
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-weight: 500;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 td:first-child {
     color: #2E8B57;
     font-weight: 600;
+    width: 45%;
+}
+
+td:last-child {
+    width: 55%;
 }
 
 hr {
@@ -62,12 +73,6 @@ hr {
     height: 2px;
     background: linear-gradient(135deg, transparent, #2E8B57, transparent);
     border-radius: 2px;
-}
-
-li.completed {
-    text-decoration: line-through;
-    color: #95a5a6;
-    opacity: 0.7;
 }
 
 .quantity-button {
@@ -110,9 +115,7 @@ li.completed {
 input[type="checkbox"] {
     width: 1.2rem;
     height: 1.2rem;
+    margin-right: 10px;
     accent-color: #2E8B57;
-}
-
-h1 {
-    text-align: center;
+    cursor: pointer;
 }

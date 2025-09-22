@@ -30,7 +30,7 @@
     <div id="recipeContainer" class="recipe-container">
         {{ $sortedPages := sort .Site.RegularPages "GitInfo.AuthorDate" "desc" }}
         {{ range $sortedPages }}
-        <a href="{{ .Permalink }}" class="card" data-title="{{ .Title | lower }}"
+        <a href="{{ .RelPermalink }}" class="card" data-title="{{ .Title | lower }}"
            data-category="{{ range .Params.categories }}{{ . | lower }} {{ end }}"
            data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
             <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
