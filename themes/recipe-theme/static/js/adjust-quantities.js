@@ -52,8 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
         updateTableQuantities(portionMultiplier, baselinePortions);
     };
 
-    decreaseButton.addEventListener("click", () => updatePortion(-0.5));
-    increaseButton.addEventListener("click", () => updatePortion(0.5));
+    decreaseButton.addEventListener("click", (e) => {
+        updatePortion(-0.5);
+        e.target.blur(); // Remove focus after element was tapped to stop highlighting it on mobile
+    });
+    increaseButton.addEventListener("click", (e) => {
+        updatePortion(0.5);
+        e.target.blur(); // Remove focus after element was tapped to stop highlighting it on mobile
+    });
 
     // Initialize the portion display and table
     portionDisplay.textContent = formatNumber(portionMultiplier);
