@@ -9,21 +9,21 @@ categories: [ "Vegan", "Pasta" ]
 
 # Zutaten
 
-|                |                                            |
-|---------------:|:-------------------------------------------|
-|      200 Gramm | Nudeln                                     |
-|              1 | Zwiebel                                    |
-|              1 | Knoblauchzehe                              |
-|  150-200 Gramm | Karotten                                   |
-|  250-300 Gramm | Wirsing (alternativ Spitzkohl)             |
-|                | Öl zum Braten                              |
-|  0,5 Esslöffel | Curry                                      |
-|    1 Esslöffel | Gemüsebrühepulver                          |
-| 200 Milliliter | Kokosmilch                                 |
-|          etwas | frische Petersilie                         |
-|  0,5 Esslöffel | Paprikapulver (süß)                        |
-|                | Pfeffer oder Cayennepfeffer                |
-|            0,5 | Limette (weniger oder mehr nach Geschmack) |
+|                |                                |
+|---------------:|:-------------------------------|
+|      200 Gramm | Nudeln                         |
+|              1 | Zwiebel                        |
+|              1 | Knoblauchzehe                  |
+|  150-200 Gramm | Karotten                       |
+|  250-300 Gramm | Wirsing (alternativ Spitzkohl) |
+|                | Öl zum Braten                  |
+|    1 Esslöffel | Curry                          |
+|    1 Esslöffel | Gemüsebrühepulver              |
+| 200 Milliliter | Kokosmilch                     |
+|          etwas | frische Petersilie             |
+|  0,5 Esslöffel | Paprikapulver (süß)            |
+|                | Pfeffer oder Cayennepfeffer    |
+|            0,5 | Limette                        |
 
 ---
 
