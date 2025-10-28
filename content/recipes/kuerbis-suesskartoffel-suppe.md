@@ -16,7 +16,7 @@ categories: [ "Vegan", "Suppe" ]
 |   2 Zentimeter | Ingwer           |
 |            0,5 | Hokkaido-Kürbis  |
 |        1 große | Süßkartoffel     |
-|                | Gelbe Currypaste |
+|  1-2 Esslöffel | Gelbe Currypaste |
 | 400 Milliliter | Kokosmilch       |
 |                | Gemüsebrühe      |
 
