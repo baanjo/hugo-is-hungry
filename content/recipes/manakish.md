@@ -1,7 +1,7 @@
 ---
 title: "Manakish"
 image: "images/manakish.jpeg"
-summary: "Brot aus dem Ofen mit Olivenöl, Zatar und Zitrone"
+summary: "Brot aus dem Ofen mit Olivenöl, Zataar und Zitrone"
 categories: [ "Vegan", "Brot" ]
 ---
 
@@ -12,7 +12,7 @@ categories: [ "Vegan", "Brot" ]
 |                        |                           |
 |-----------------------:|:--------------------------|
 |                        | Olivenöl                  |
-|        ca. 2 Esslöffel | Zatar                     |
+|        ca. 2 Esslöffel | Zataar                    |
 |                    0,5 | Zitrone                   |
 |         125 Milliliter | Wasser                    |
 | 0,5 Päckchen (4 Gramm) | Trockenhefe               |
@@ -40,13 +40,13 @@ categories: [ "Vegan", "Brot" ]
 
 |                 |          |
 |----------------:|:---------|
-| ca. 2 Esslöffel | Zatar    |
+| ca. 2 Esslöffel | Zataar   |
 |                 | Olivenöl |
 |             0,5 | Zitrone  |
 
 - [ ] Teig in Stücke teilen (für 2 Portionen 4 Teile) und zu etwa 1 Zentimeter dicken Fladen formen
 - [ ] Fladen auf ein Backrost mit Backpapier legen.
-- [ ] Zatar mit Olivenöl (Menge bei beidem nach Belieben) zu einer Paste vermengen und Fladen damit bestreichen.
+- [ ] Zataar mit Olivenöl (Menge bei beidem nach Belieben) zu einer Paste vermengen und Fladen damit bestreichen.
 - [ ] Fladen etwa 10 Minuten im vorgeheizten Backofen bei 200 Grad (Umluft) backen.
 - [ ] Manakish anschließend nach Belieben mit Zitronensaft servieren.
 
