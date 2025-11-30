@@ -6,10 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const recipeContainer = document.getElementById("recipeContainer");
 
     let activeCategory = "all"; // Default to "all"
-    let originalOrder = [];
 
     const searchableRecipes = Array.from(recipeCards).map((card, index) => {
-        originalOrder.push(card);
         return {
             id: index,
             element: card,
@@ -23,15 +21,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize Fuse for fuzzy searching
     const fuse = new Fuse(searchableRecipes, {
         keys: [
-            { name: 'title', weight: 0.7 }, // Give higher weight for title matches
-            { name: 'summary', weight: 0.2 },
-            { name: 'content', weight: 0.1 }
+            {name: 'title', weight: 1}, // Give higher weight for title matches
+            {name: 'summary', weight: 0.5},
+            {name: 'content', weight: 0.5}
         ],
         threshold: 0.2, // Accept typos such as Kartofel
         ignoreLocation: true,
         minMatchCharLength: 2,
         includeScore: true,
-        shouldSort: true
+        findAllMatches: true
     });
 
     // Handle category filtering
@@ -58,47 +56,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to filter and search recipes
     function filterAndSearch() {
-        const query = searchInput.value.trim();
+        const queryWords = searchInput.value.trim().split(/\s+/).filter(word => word.length >= 2);
 
-        if (query === "") {
-            originalOrder.forEach(card => {
-                recipeContainer.appendChild(card);
+        if (queryWords.length === 0) {
+            recipeCards.forEach(card => {
                 const matchesCategory = activeCategory === "all" || card.dataset.category.includes(activeCategory);
                 card.style.display = matchesCategory ? "block" : "none";
+                recipeContainer.appendChild(card); // append moves (not copies) the element to the end
             });
             updateNoResultsMessage();
             return;
         }
 
-        const queryWords = query.toLowerCase().split(/\s+/).filter(word => word.length >= 2);
-        if (queryWords.length === 0) {
-            updateNoResultsMessage();
-            return;
-        }
-
+        // Map to store cumulative scores for each recipe (lower is better)
         const recipeScores = new Map();
         queryWords.forEach(word => {
             fuse.search(word).forEach(result => {
                 const id = result.item.id;
-                recipeScores.set(id, (recipeScores.get(id) || 0) + (1 / (result.score + 0.1)) + 1);
+                recipeScores.set(id, (recipeScores.get(id) || 1) * result.score);
             });
         });
 
         const matchedElements = Array.from(recipeScores.entries())
-            .sort((a, b) => b[1] - a[1])
+            .filter(entry => entry[1] < 0.85) // Filter out bad matches
+            .sort((a, b) => a[1] - b[1])
             .map(([id]) => searchableRecipes[id])
             .filter(recipe => activeCategory === "all" || recipe.categories.includes(activeCategory))
             .map(recipe => recipe.element);
 
-        const matchingSet = new Set(matchedElements);
+        // Hide all cards
         recipeCards.forEach(card => {
-            card.style.display = matchingSet.has(card) ? "block" : "none";
+            card.style.display = "none";
         });
 
-        matchedElements.forEach(card => recipeContainer.appendChild(card));
+        // Add matching elements back to the container is order of relevance
+        matchedElements.forEach(card => {
+            recipeContainer.appendChild(card);
+            card.style.display = "block";
+        });
+
         updateNoResultsMessage();
     }
 
+    // Show or hide the "no results" message
     function updateNoResultsMessage() {
         const hasVisible = Array.from(recipeCards).some(card => card.style.display !== "none");
         noResults.style.display = hasVisible ? "none" : "block";
