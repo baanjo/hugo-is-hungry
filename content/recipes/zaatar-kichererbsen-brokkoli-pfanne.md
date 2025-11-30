@@ -1,7 +1,7 @@
 ---
-title: "Zaatar-Kichererbsen-Brokkoli-Pfanne"
-image: "images/zaatar-kichererbsen-brokkoli-pfanne.jpeg"
-summary: "Gebratene Kichererbsen mit Zaatar, Paprika und Brokkoli sowie Couscous"
+title: "Zatar-Kichererbsen-Brokkoli-Pfanne"
+image: "images/zatar-kichererbsen-brokkoli-pfanne.jpeg"
+summary: "Gebratene Kichererbsen mit Zatar, Paprika und Brokkoli sowie Couscous"
 categories: [ "Vegan" ]
 note:
 ---
@@ -15,7 +15,7 @@ note:
 |     250 Gramm | Brokkoli/Romanesco                    |
 |               | Öl                                    |
 |     400 Gramm | Kichererbsen (gekocht)                |
-| 2-3 Esslöffel | Zaatar                                |
+| 2-3 Esslöffel | Zatar                                 |
 |               | Kreuzkümmel (gemahlen) für das Gemüse |
 |               | Koriander (gemahlen) für das Gemüse   |
 |      1 kleine | Spitzpaprika                          |
@@ -38,7 +38,7 @@ note:
 |             1 | Chili                  |
 |     400 Gramm | Kichererbsen (gekocht) |
 |               | Öl                     |
-| 2-3 Esslöffel | Zaatar                 |
+| 2-3 Esslöffel | Zatar                  |
 | 0,5 Teelöffel | Kreuzkümmel (gemahlen) |
 | 0,5 Teelöffel | Koriander (gemahlen)   |
 |      1 kleine | Spitzpaprika           |
@@ -50,7 +50,7 @@ note:
 - [ ] Chili hacken.
 - [ ] Kichererbsen waschen.
 - [ ] Kichererbsen und Chili in etwas Öl anbraten.
-- [ ] Zaatar, Kreuzkümmel und Koriander zu den Kichererbsen geben und kurz anbraten.
+- [ ] Zatar, Kreuzkümmel und Koriander zu den Kichererbsen geben und kurz anbraten.
 - [ ] Paprika in dünne Ringe schneiden.
 - [ ] Paprika und Brokkoli in die Pfanne geben und kurz anbraten.
 - [ ] Gemüse mit Limettensaft und Salz abschmecken.
