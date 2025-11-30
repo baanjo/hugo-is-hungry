@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
             card.style.display = "none";
         });
 
-        // Add matching elements back to the container is order of relevance
+        // Add matching elements back to the container in order of relevance
         matchedElements.forEach(card => {
             recipeContainer.appendChild(card);
             card.style.display = "block";
