@@ -6,6 +6,7 @@
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/card.css" | absURL }}">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
     <script src="{{ "js/search.js" | absURL }}" defer></script>
 </head>
 <body>
@@ -24,6 +25,11 @@
         {{ range $key, $value := .Site.Taxonomies.categories }}
         <button class="primary-button category-filter" data-category="{{ $key | lower }}">{{ $key | title }} ({{ len $value }})</button>
         {{ end }}
+    </div>
+
+    <!-- No Results Message -->
+    <div id="noResults" style="display: none; text-align: center; padding: 2rem; color: #666;">
+        <p>Keine Rezepte gefunden. Versuche einen anderen Suchbegriff.</p>
     </div>
 
     <!-- Recipe Cards -->
