@@ -20,23 +20,23 @@ categories: [ "Vegetarisch", "Pasta" ]
 |   5 Esslöffel | Petersilie                               |
 |   1 Teelöffel | Gemüsebrühe                              |
 |     300 Gramm | Nudeln                                   |
-|      60 Gramm | Grana Padano                             |
+|      50 Gramm | Grana Padano                             |
 |               | Olivenöl                                 |
 
 ---
 
 # 1.
 
-- [ ] Knoblauchzehen in dünne Scheiben schneiden und mit etwas Salz in eine Schüssel geben.
+- [ ] Knoblauchzehen in dünne Scheiben schneiden und mit etwas Salz in eine Schüssel geben und für ein paar Minuten ziehen lassen. Dies entschärft den Knoblauch. 
 - [ ] Tomaten halbieren und in die Schüssel zum Knoblauch geben.
 - [ ] Peperoni in dünne Scheiben schneiden und in die Schüssel geben.
 - [ ] Basilikum, Oregano, Petersilie und Gemüsebrühepulver in die Schüssel geben.
 - [ ] Nudeln nach Packungsanleitung kochen.
-- [ ] Nudeln abgießen - dabei etwa 2 Kellen (je 300 Gramm Nudeln) des Nudelwassers aufbewahren und in die Schüssel mit
+- [ ] Nudeln abgießen - dabei etwa 1-2 Kellen (je 300 Gramm Nudeln) des Nudelwassers aufbewahren und in die Schüssel mit
   den übrigen Zutaten geben.
-- [ ] Würzmischung und Wasser gut verrühren und einige Minuten ziehen lassen.
-- [ ] Nudeln 1 Minute im heißen Topf auf dem Herd schwenken, anschließend Gewürzmischung hinzugeben und gut vermengen.
-- [ ] Grana Padano hinzufügen und vermengen.
+- [ ] Würzmischung und Wasser gut verrühren und einige Minuten ziehen lassen. Sie sollte sehr salzig schmecken. 
+- [ ] Nudeln 1 Minute abkühlen lassen, anschließend Gewürzmischung hinzugeben und gut vermengen.
+- [ ] Grana Padano Stück für Stück hinzufügen und vermengen.
 - [ ] Auf Tellern servieren und auf jede Portion einen Schuss Olivenöl geben.
 
 ---
