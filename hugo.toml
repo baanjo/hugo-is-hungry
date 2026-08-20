@@ -3,4 +3,4 @@ theme = "recipe-theme"
 baseURL = "https://baanjo.github.io/hugo-is-hungry/"
 enableGitInfo = true
 [outputs]
-home = ["HTML", "JSON"]
+home = ["HTML"]
