@@ -39,7 +39,7 @@
         <a href="{{ .RelPermalink }}" class="card" data-title="{{ .Title | lower }}"
            data-category="{{ range .Params.categories }}{{ . | lower }} {{ end }}"
            data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" loading="lazy" decoding="async">
             <h3>{{ .Title }}</h3>
             <div class="categories">
                 {{ range .Params.categories }}
