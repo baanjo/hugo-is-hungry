@@ -7,7 +7,7 @@
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Optional shadow for better depth */
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth hover effect */
-    overflow: hidden; /* needed? */
+    overflow: hidden;
     backdrop-filter: blur(10px);
 }
 
