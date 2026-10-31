@@ -15,7 +15,7 @@
 
     <h1 class="title">{{ .Title }}</h1>
     <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
-    <p> {{ .Params.summary }} </p>
+    <p> {{ .RawSummary }} </p>
 
     <h1>Portionen</h1>
     <div id="portionControl" data-baseline-portions="{{ .Params.portions | default 2 }}">
