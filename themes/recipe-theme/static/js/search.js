@@ -50,23 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Handle search input
-    searchInput.addEventListener("input", () => {
-        filterAndSearch();
-    });
+    searchInput.addEventListener("input", filterAndSearch);
 
     // Function to filter and search recipes
     function filterAndSearch() {
         const queryWords = searchInput.value.trim().split(/\s+/).filter(word => word.length >= 2);
-
-        if (queryWords.length === 0) {
-            recipeCards.forEach(card => {
-                const matchesCategory = activeCategory === "all" || card.dataset.category.includes(activeCategory);
-                card.style.display = matchesCategory ? "block" : "none";
-                recipeContainer.appendChild(card); // append moves (not copies) the element to the end
-            });
-            updateNoResultsMessage();
-            return;
-        }
 
         // Map to store cumulative scores for each recipe (lower is better)
         const recipeScores = new Map();
@@ -77,10 +65,12 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
-        const matchedElements = Array.from(recipeScores.entries())
+        const rankedRecipes = Array.from(recipeScores.entries())
             .filter(entry => entry[1] < 0.85) // Filter out bad matches
             .sort((a, b) => a[1] - b[1])
-            .map(([id]) => searchableRecipes[id])
+            .map(([id]) => searchableRecipes[id]);
+
+        const matchedElements = (queryWords.length > 0 ? rankedRecipes : searchableRecipes)
             .filter(recipe => activeCategory === "all" || recipe.categories.includes(activeCategory))
             .map(recipe => recipe.element);
 
@@ -91,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Add matching elements back to the container in order of relevance
         matchedElements.forEach(card => {
-            recipeContainer.appendChild(card);
+            recipeContainer.appendChild(card); // append moves (not copies) the element to the end
             card.style.display = "block";
         });
 
