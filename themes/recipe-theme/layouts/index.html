@@ -9,10 +9,10 @@
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="Unsere Sammlung veganer und vegetarischer Rezepte: Currys, Suppen, Salate, Pasta, Brot und mehr.">
     <meta property="og:url" content="{{ .Permalink }}">
-    <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
-    <link rel="stylesheet" href="{{ "css/card.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/global.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/card.css" | relURL }}">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
-    <script src="{{ "js/search.js" | absURL }}" defer></script>
+    <script src="{{ "js/search.js" | relURL }}" defer></script>
 </head>
 <body>
 <header>
@@ -44,7 +44,7 @@
         <a href="{{ .RelPermalink }}" class="card" data-title="{{ .Title | lower }}"
            data-category="{{ range .Params.categories }}{{ . | lower }} {{ end }}"
            data-summary="{{ .Summary | lower }}" data-content="{{ .Plain | lower }}">
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" decoding="async">
             <h3>{{ .Title }}</h3>
             <div class="categories">
                 {{ range .Params.categories }}

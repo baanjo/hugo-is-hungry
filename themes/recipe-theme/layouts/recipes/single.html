@@ -12,9 +12,9 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <link rel="stylesheet" href="{{ "css/global.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/recipe.css" | relURL }}">
-    <script src="{{ "js/checkboxes.js" | absURL }}" defer></script>
-    <script src="{{ "js/adjust-quantities.js" | absURL }}"></script>
-    <script src="{{ "js/wake-lock.js" | absURL }}" defer></script>
+    <script src="{{ "js/checkboxes.js" | relURL }}" defer></script>
+    <script src="{{ "js/adjust-quantities.js" | relURL }}"></script>
+    <script src="{{ "js/wake-lock.js" | relURL }}" defer></script>
 </head>
 <body>
 <div class="container">
@@ -22,7 +22,7 @@
 
     <h1 class="title">{{ .Title }}</h1>
     {{ $dim := images.Config (printf "static/%s" .Params.image) }}
-    <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" width="{{ $dim.Width }}" height="{{ $dim.Height }}" fetchpriority="high">
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" width="{{ $dim.Width }}" height="{{ $dim.Height }}" fetchpriority="high">
     <p> {{ .RawSummary }} </p>
 
     <h1>Portionen</h1>
