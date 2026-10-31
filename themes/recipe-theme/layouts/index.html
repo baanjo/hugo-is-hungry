@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
+    <meta name="description" content="Unsere Sammlung veganer und vegetarischer Rezepte: Currys, Suppen, Salate, Pasta, Brot und mehr.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="Unsere Sammlung veganer und vegetarischer Rezepte: Currys, Suppen, Salate, Pasta, Brot und mehr.">
+    <meta property="og:url" content="{{ .Permalink }}">
     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/card.css" | absURL }}">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>

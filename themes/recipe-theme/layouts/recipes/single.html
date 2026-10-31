@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .RawSummary }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .RawSummary }}">
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+    <meta property="og:url" content="{{ .Permalink }}">
     <link rel="stylesheet" href="{{ "css/global.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/recipe.css" | relURL }}">
     <script src="{{ "js/checkboxes.js" | absURL }}" defer></script>
@@ -27,7 +33,7 @@
     </div>
 
     <div>
-        {{ .Content | safeHTML }}
+        {{ .Content }}
     </div>
 </div>
 </body>
